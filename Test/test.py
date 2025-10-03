@@ -4,8 +4,6 @@ import requests
 import json
 from landingai_ade import LandingAIADE
 from dotenv import load_dotenv
-from landingai_ade.lib import pydantic_to_json_schema
-from pydantic import BaseModel, Field
 from pathlib import Path
 from typing import Optional
 load_dotenv()
@@ -48,6 +46,7 @@ def parse_document(client, document_path, model_to_use):
         model=model_to_use
     )
     return response
+
 
 def extract_document_direct_api(document_path, schema_model, model_to_use="extract-latest"):
     """Extract structured data from document using direct ADE Extract API"""
@@ -134,29 +133,51 @@ if extract_response:
         print(f"Raw extraction: {extract_response.get('extraction', {})}")
 else:
     print("Extraction failed!")
+=======
+def extract_policy_exp(text):
+    """Extract Policy Exp from markdown text"""
+    lines = text.split('\n')
+    for line in lines:
+        if 'policy exp' in line.lower():
+            if ':' in line:
+                return line.split(':', 1)[1].strip()
+            elif '|' in line:
+                parts = line.split('|')
+                for i, part in enumerate(parts):
+                    if 'policy exp' in part.lower() and i + 1 < len(parts):
+                        return parts[i + 1].strip()
+            return line.strip()
+    return None
 
-# print(response.chunks)
-# question = "What is the revenue for year 2024 in the confectionery segment?"
+# Use an absolute path to the document relative to this script's directory
+script_dir = Path(__file__).parent
+document_path = str(script_dir / "accord-form.pdf")
+if not Path(document_path).exists():
+    raise FileNotFoundError(f"Document not found at {document_path}")
+model_to_use="dpt-2-latest"
+response = parse_document(client,document_path, model_to_use)
+print("Full response:")
+print(response)
+print("\n" + "="*50 + "\n")
 
-# # If your SDK has a built-in QA helper (per LandingAI tutorial), it will look like this:
-# answer_resp = client.answer(
-#     question=question,
-#     parsed=response,           # pass the parse output so it can ground answers
-#     top_k=8,                     # number of most relevant chunks to consider
-#     with_citations=True,         # include page refs / chunk grounding
-#     with_spans=True,             # include bbox spans for highlights
-# )
+# Get markdown response
+markdown_text = str(response)
+print("Markdown Response:")
+print(markdown_text)
+print("\n" + "="*50 + "\n")
 
-# print("Answer:", answer_resp.answer_text)
-# for cite in answer_resp.citations:
-#     print(f"- Page {cite.page_index+1}, score={cite.score}, snippet={cite.text[:120]}")
+# Extract Policy Exp
+policy_exp = extract_policy_exp(markdown_text)
+if policy_exp:
+    print(f"Policy Exp Found: {policy_exp}")
+else:
+    print("Policy Exp field not found")
 
-# # 3) (Optional) Subsequent questions reuse the same parsed result without re-parsing
-# follow_up = "Breakdown that 2024 confectionery revenue number by region if shown."
-# follow_resp = client.answer(
-#     question=follow_up,
-#     parsed=response,
-#     top_k=8,
-#     with_citations=True,
-# )
-# print("Follow-up:", follow_resp.answer_text)
+# Save to file
+output_file = script_dir / "response_output.txt"
+with open(output_file, 'w', encoding='utf-8') as f:
+    f.write("Markdown Response:\n")
+    f.write(markdown_text)
+    f.write("\n\n" + "="*50 + "\n\n")
+    f.write(f"Policy Exp: {policy_exp if policy_exp else 'Not found'}\n")
+print(f"Response saved to: {output_file}")

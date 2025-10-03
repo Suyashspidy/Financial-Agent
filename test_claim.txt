@@ -1,0 +1,1 @@
+This is a test claims document for testing the Claims Triage Agent.

@@ -1,0 +1,111 @@
+# Financial Agent MCP Server Configuration
+
+# Server Configuration
+server:
+  host: "0.0.0.0"
+  port: 8000
+  debug: true
+  reload: true
+
+# Database Configuration
+database:
+  url: "sqlite:///./financial_agent.db"
+  echo: false
+  pool_size: 5
+  max_overflow: 10
+
+# AI Model Configuration
+ai_models:
+  sentiment_analysis:
+    model: "cardiffnlp/twitter-roberta-base-sentiment-latest"
+    max_length: 512
+  
+  named_entity_recognition:
+    model: "dbmdz/bert-large-cased-finetuned-conll03-english"
+    aggregation_strategy: "simple"
+  
+  text_classification:
+    model: "microsoft/DialoGPT-medium"
+    max_length: 512
+
+# Document Processing Configuration
+document_processing:
+  max_file_size: 10485760  # 10MB
+  allowed_formats:
+    - "application/pdf"
+    - "text/csv"
+    - "application/vnd.ms-excel"
+    - "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    - "application/json"
+    - "image/jpeg"
+    - "image/png"
+  
+  storage_path: "storage/documents"
+  temp_path: "storage/temp"
+
+# Fraud Detection Configuration
+fraud_detection:
+  risk_thresholds:
+    low: 0.3
+    medium: 0.6
+    high: 0.8
+  
+  fraud_patterns:
+    amount_threshold: 100000
+    round_number_threshold: 1000
+    unusual_hour_threshold: 6
+  
+  alert_config:
+    enable_email_alerts: true
+    enable_sms_alerts: false
+    alert_email: "alerts@financialagent.com"
+
+# Security Configuration
+security:
+  api_key_required: false
+  rate_limiting:
+    enabled: true
+    requests_per_minute: 100
+  
+  cors:
+    allowed_origins: ["*"]
+    allowed_methods: ["GET", "POST", "PUT", "DELETE"]
+    allowed_headers: ["*"]
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/financial_agent.log"
+  max_size: 10485760  # 10MB
+  backup_count: 5
+
+# Monitoring Configuration
+monitoring:
+  enable_metrics: true
+  metrics_endpoint: "/metrics"
+  health_check_interval: 30
+  
+# Cache Configuration
+cache:
+  enabled: true
+  backend: "redis"
+  redis_url: "redis://localhost:6379"
+  default_ttl: 3600  # 1 hour
+
+# External Services Configuration
+external_services:
+  ocr_service:
+    provider: "tesseract"
+    language: "eng"
+    confidence_threshold: 0.7
+  
+  compliance_api:
+    enabled: false
+    base_url: "https://api.compliance.com"
+    api_key: "your_api_key_here"
+  
+  risk_scoring_api:
+    enabled: false
+    base_url: "https://api.riskscoring.com"
+    api_key: "your_api_key_here"

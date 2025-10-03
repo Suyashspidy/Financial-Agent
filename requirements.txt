@@ -1,0 +1,3 @@
+landingai-ade
+pathlib
+python-dotenv

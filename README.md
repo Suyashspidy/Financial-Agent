@@ -1,104 +1,240 @@
-# Claims Triage Agent
+# Financial Agent - Claims Triage System
 
-A modern React web application for intelligent insurance claims triage using AI-powered analysis and routing.
+A modern React-based claims triage application with AI-powered document processing, featuring a beautiful animated UI with multiple file upload capabilities.
 
-## Features
-
-- **Intelligent File Upload**: Drag and drop PDF upload with validation
-- **AI-Powered Analysis**: Automatic claim scoring and complexity assessment
-- **Smart Routing**: AI suggests the appropriate team for each claim
-- **Real-time Dashboard**: View and manage processed claims
-- **Responsive Design**: Works seamlessly on desktop and mobile devices
-
-## Tech Stack
-
-- **Frontend**: React 18 with Vite
-- **Styling**: Tailwind CSS
-- **Components**: react-bits component library
-- **Icons**: Lucide React
-- **Build Tool**: Vite
-
-## Getting Started
+## 🚀 Quick Start
 
 ### Prerequisites
 
-- Node.js (version 16 or higher)
-- npm or yarn
+Before you begin, ensure you have the following installed on your system:
 
-### Installation
+- **Node.js** (version 16.0 or higher)
+- **npm** (comes with Node.js) or **yarn**
+- **Git** (for cloning the repository)
 
-1. Install dependencies:
-```bash
-npm install
-```
+### Installation Steps
 
-2. Start the development server:
-```bash
-npm run dev
-```
+1. **Clone the repository** (if not already done):
+   ```bash
+   git clone <repository-url>
+   cd Financial-Agent
+   ```
 
-3. Open your browser and navigate to `http://localhost:5173`
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+   
+   This will install all required packages including:
+   - React 18
+   - Vite (build tool)
+   - Tailwind CSS (styling)
+   - Lucide React (icons)
+   - GSAP (animations)
+   - OGL (WebGL for 3D animations)
+
+3. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser** and navigate to:
+   ```
+   http://localhost:5173
+   ```
+   
+   *Note: If port 5173 is in use, Vite will automatically use the next available port (e.g., 5174)*
+
+## 🎯 Features
+
+### Core Functionality
+- **Multiple File Upload**: Upload multiple PDF documents simultaneously
+- **Drag & Drop Support**: Intuitive file selection with drag and drop
+- **AI-Powered Processing**: Simulated AI analysis of uploaded documents
+- **Claims Dashboard**: View and manage processed claims
+- **Smart Routing**: Automatic team assignment based on claim analysis
+
+### UI/UX Features
+- **Animated Background**: 3D Prism WebGL animation
+- **Typing Animation**: Dynamic text effects using GSAP
+- **Spotlight Cards**: Interactive hover effects on feature cards
+- **Pill Navigation**: Modern, animated navigation bar
+- **Transparent Design**: Glass-morphism UI with backdrop blur effects
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
+
+## 🛠️ Development
 
 ### Available Scripts
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
+- `npm run dev` - Start development server with hot reload
+- `npm run build` - Build the application for production
+- `npm run preview` - Preview the production build locally
+- `npm run lint` - Run ESLint for code quality checks
 
-## Usage
+### Project Structure
 
-### Upload Claims
-1. Navigate to the "Upload Claim" section (default view)
-2. Drag and drop a PDF file or click "Choose File"
-3. Click "Submit for Triage" to process the claim
-4. The system will automatically switch to the dashboard to show results
+```
+src/
+├── App.jsx                 # Main application component
+├── TextType.jsx           # Typing animation component
+├── Prism.jsx              # 3D WebGL background animation
+├── PillNav.jsx            # Navigation component
+├── SpotlightCard.jsx      # Interactive card component
+├── index.css              # Global styles and Tailwind CSS
+└── main.jsx               # Application entry point
+```
 
-### View Results
-1. Navigate to the "Triage Dashboard" section
-2. View processed claims with:
-   - Severity scores (color-coded)
-   - Complexity levels
-   - Suggested team assignments
-   - Risk flags and warnings
-   - Reassign options
+### Key Components
 
-## Features Overview
+#### UploadSection
+- Handles multiple file uploads
+- Drag and drop functionality
+- File management (add/remove files)
+- Progress indicators
 
-### Upload Section
-- Clean, modern hero section with clear value proposition
-- Large, intuitive file upload area with drag and drop support
-- PDF file validation
-- Loading states with spinner during processing
-- Feature highlights showcasing key benefits
+#### TriageDashboard
+- Displays processed claims
+- Shows claim details and analysis
+- Team assignment information
+- Reassignment functionality
 
-### Triage Dashboard
-- Card-based layout for easy claim review
-- Color-coded severity indicators (red/yellow/green)
-- Comprehensive claim information display
-- Flag system for risk identification
-- One-click reassignment functionality
+#### PillNav
+- Centered navigation bar
+- Smooth animations with GSAP
+- Mobile-responsive design
+- Active state management
 
-### Responsive Design
-- Mobile-first approach
-- Adaptive layouts for all screen sizes
-- Touch-friendly interface elements
-- Optimized for both desktop and mobile workflows
+## 🎨 Styling
 
-## Mock Data
+The application uses **Tailwind CSS** for styling with custom components:
 
-The application uses generated mock data for demonstration purposes. In a production environment, this would be replaced with real API calls to your claims processing backend.
+- **Color Scheme**: Dark theme with transparent elements
+- **Typography**: Modern font stack with proper hierarchy
+- **Animations**: GSAP-powered smooth transitions
+- **Layout**: Responsive grid system
+- **Effects**: Backdrop blur, gradients, and shadows
 
-## Customization
+## 🔧 Configuration
 
-The application is built with Tailwind CSS, making it easy to customize:
-- Colors: Modify the color palette in the component files
-- Layout: Adjust spacing and sizing using Tailwind utilities
-- Components: Extend or modify the react-bits components as needed
+### Environment Variables
+Create a `.env` file in the root directory for any environment-specific configurations:
 
-## Browser Support
+```env
+VITE_API_URL=your_api_url_here
+VITE_APP_TITLE=Financial Agent
+```
+
+### Build Configuration
+The project uses Vite for building. Configuration can be found in `vite.config.js`.
+
+## 📱 Browser Support
 
 - Chrome (latest)
 - Firefox (latest)
 - Safari (latest)
 - Edge (latest)
+
+*Note: WebGL features require modern browser support*
+
+## 🚨 Troubleshooting
+
+### Common Issues
+
+1. **Port already in use**:
+   ```bash
+   # Kill process using port 5173
+   lsof -ti:5173 | xargs kill -9
+   ```
+
+2. **Node modules issues**:
+   ```bash
+   # Clear cache and reinstall
+   rm -rf node_modules package-lock.json
+   npm install
+   ```
+
+3. **Build errors**:
+   ```bash
+   # Check for syntax errors
+   npm run lint
+   ```
+
+4. **WebGL not working**:
+   - Ensure your browser supports WebGL
+   - Check browser console for WebGL errors
+   - Try disabling hardware acceleration
+
+### Development Tips
+
+- Use React DevTools for debugging
+- Check browser console for any errors
+- Hot reload should work automatically
+- File changes trigger automatic rebuilds
+
+## 📦 Dependencies
+
+### Core Dependencies
+- `react` - UI library
+- `react-dom` - DOM rendering
+- `vite` - Build tool and dev server
+
+### UI & Styling
+- `tailwindcss` - CSS framework
+- `lucide-react` - Icon library
+- `gsap` - Animation library
+
+### 3D Graphics
+- `ogl` - WebGL library for 3D animations
+
+### Development
+- `@vitejs/plugin-react` - Vite React plugin
+- `eslint` - Code linting
+- `autoprefixer` - CSS vendor prefixes
+
+## 🚀 Deployment
+
+### Production Build
+
+1. **Build the application**:
+   ```bash
+   npm run build
+   ```
+
+2. **Preview the build**:
+   ```bash
+   npm run preview
+   ```
+
+3. **Deploy the `dist` folder** to your hosting service
+
+### Deployment Options
+
+- **Vercel**: Connect your GitHub repository
+- **Netlify**: Drag and drop the `dist` folder
+- **AWS S3**: Upload the `dist` folder contents
+- **GitHub Pages**: Use GitHub Actions for automatic deployment
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🆘 Support
+
+If you encounter any issues or have questions:
+
+1. Check the troubleshooting section above
+2. Search existing GitHub issues
+3. Create a new issue with detailed information
+4. Include browser console logs and error messages
+
+---
+
+**Happy coding! 🎉**

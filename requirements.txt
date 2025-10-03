@@ -1,3 +1,4 @@
 landingai-ade
 pathlib
 python-dotenv
+requests

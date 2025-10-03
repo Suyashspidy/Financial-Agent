@@ -2,8 +2,6 @@ from landingai_ade.types import ExtractResponse, ParseResponse
 import os
 from landingai_ade import LandingAIADE
 from dotenv import load_dotenv
-from landingai_ade.lib import pydantic_to_json_schema
-from pydantic import BaseModel, Field
 from pathlib import Path
 load_dotenv()
 os.environ["ENDPOINT_HOST"] = "https://api.va.landing.ai"
@@ -30,14 +28,53 @@ def parse_document(client,document_path, model_to_use):
     )
     return response
 
+def extract_policy_exp(text):
+    """Extract Policy Exp from markdown text"""
+    lines = text.split('\n')
+    for line in lines:
+        if 'policy exp' in line.lower():
+            if ':' in line:
+                return line.split(':', 1)[1].strip()
+            elif '|' in line:
+                parts = line.split('|')
+                for i, part in enumerate(parts):
+                    if 'policy exp' in part.lower() and i + 1 < len(parts):
+                        return parts[i + 1].strip()
+            return line.strip()
+    return None
+
 # Use an absolute path to the document relative to this script's directory
 script_dir = Path(__file__).parent
-document_path = str(script_dir / "4pages.pdf")
+document_path = str(script_dir / "accord-form.pdf")
 if not Path(document_path).exists():
     raise FileNotFoundError(f"Document not found at {document_path}")
 model_to_use="dpt-2-latest"
 response = parse_document(client,document_path, model_to_use)
+print("Full response:")
 print(response)
+print("\n" + "="*50 + "\n")
+
+# Get markdown response
+markdown_text = str(response)
+print("Markdown Response:")
+print(markdown_text)
+print("\n" + "="*50 + "\n")
+
+# Extract Policy Exp
+policy_exp = extract_policy_exp(markdown_text)
+if policy_exp:
+    print(f"Policy Exp Found: {policy_exp}")
+else:
+    print("Policy Exp field not found")
+
+# Save to file
+output_file = script_dir / "response_output.txt"
+with open(output_file, 'w', encoding='utf-8') as f:
+    f.write("Markdown Response:\n")
+    f.write(markdown_text)
+    f.write("\n\n" + "="*50 + "\n\n")
+    f.write(f"Policy Exp: {policy_exp if policy_exp else 'Not found'}\n")
+print(f"Response saved to: {output_file}")
 
 # print(response.chunks)
 # question = "What is the revenue for year 2024 in the confectionery segment?"

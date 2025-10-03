@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "financial-agent-mcp": {
+      "command": "python",
+      "args": ["/home/abhin/Financial-Agent-mcp/simple_mcp_server.py"],
+      "env": {
+        "PYTHONPATH": "/home/abhin/Financial-Agent-mcp"
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+"""
+Enhanced Due Diligence Copilot MCP Server Requirements
+Integrates BDH architecture with existing Due Diligence system
+"""
+
+# Core FastAPI dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-multipart==0.0.6
+python-dotenv==1.0.0
+
+# BDH Architecture dependencies
+torch==2.1.1
+transformers==4.36.2
+numpy==1.24.3
+scikit-learn==1.3.2
+
+# Pathway integration (for existing Due Diligence system)
+pathway
+
+# LandingAI ADE (existing dependency)
+landingai-ade
+pydantic-settings==2.1.0
+pillow==10.1.0
+pymupdf==1.23.8
+matplotlib==3.8.2
+
+# Document processing dependencies
+pandas==2.1.4
+PyPDF2==3.0.1
+openpyxl==3.1.2
+opencv-python==4.8.1.78
+pytesseract==0.3.10
+
+# Additional utilities
+aiofiles==23.2.1
+asyncio==3.4.3
+typing-extensions==4.8.0
+requests==2.31.0
+httpx==0.25.2
+
+# Database and caching
+redis==5.0.1
+sqlalchemy==2.0.23
+alembic==1.13.1
+psycopg2-binary==2.9.9
+
+# Testing and development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+
+# Logging and monitoring
+structlog==23.2.0
+prometheus-client==0.19.0
+
+# Security
+cryptography==41.0.8
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+
+# Additional ML libraries
+tensorflow==2.15.0
+xgboost==2.0.2
+lightgbm==4.1.0
+
+# API documentation
+sphinx==7.2.6
+sphinx-rtd-theme==1.3.0

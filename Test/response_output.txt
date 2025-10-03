@@ -1,0 +1,1684 @@
+JSON Response:
+{
+  "chunks": [
+    {
+      "id": "650829f5-7e3f-4566-bb2d-56b33e88c652",
+      "grounding": {
+        "box": {
+          "bottom": 0.1472478061914444,
+          "left": 0.12343274056911469,
+          "right": 0.23094795644283295,
+          "top": 0.1111384853720665
+        },
+        "page": 0
+      },
+      "markdown": "<a id='650829f5-7e3f-4566-bb2d-56b33e88c652'></a>\n\n<::logo: ACORD\nACORD \u00ae\nThe italicized and bold text \"ACORD\" is framed by two curved lines, one above and one below, with a horizontal line beneath the entire logo.::>",
+      "type": "logo"
+    },
+    {
+      "id": "ae98c088-99db-4197-86a4-d67d6230dce7",
+      "grounding": {
+        "box": {
+          "bottom": 0.14138667285442352,
+          "left": 0.2754637598991394,
+          "right": 0.7148136496543884,
+          "top": 0.11927230656147003
+        },
+        "page": 0
+      },
+      "markdown": "<a id='ae98c088-99db-4197-86a4-d67d6230dce7'></a>\n\nCERTIFICATE OF LIABILITY INSURANCE",
+      "type": "text"
+    },
+    {
+      "id": "35304d9e-ef98-4215-b1e3-41fbffe39092",
+      "grounding": {
+        "box": {
+          "bottom": 0.14335046708583832,
+          "left": 0.7624568343162537,
+          "right": 0.8830700516700745,
+          "top": 0.11285679787397385
+        },
+        "page": 0
+      },
+      "markdown": "<a id='35304d9e-ef98-4215-b1e3-41fbffe39092'></a>\n\nDATE (MM/DD/YYYY)\n01/01/2010",
+      "type": "text"
+    },
+    {
+      "id": "ec08b414-8e4f-416c-8f16-d2d85d908f46",
+      "grounding": {
+        "box": {
+          "bottom": 0.34584882855415344,
+          "left": 0.1213904321193695,
+          "right": 0.8850322961807251,
+          "top": 0.14026805758476257
+        },
+        "page": 0
+      },
+      "markdown": "<a id='ec08b414-8e4f-416c-8f16-d2d85d908f46'></a>\n\n<table id=\"0-1\">\n<tr><td id=\"0-2\" colspan=\"4\">THIS CERTIFICATE IS ISSUED AS A MATTER OF INFORMATION ONLY AND CONFERS NO RIGHTS UPON THE CERTIFICATE HOLDER. THIS CERTIFICATE DOES NOT AFFIRMATIVELY OR NEGATIVELY AMEND, EXTEND OR ALTER THE COVERAGE AFFORDED BY THE POLICIES BELOW. THIS CERTIFICATE OF INSURANCE DOES NOT CONSTITUTE A CONTRACT BETWEEN THE ISSUING INSURER(S), AUTHORIZED REPRESENTATIVE OR PRODUCER, AND THE CERTIFICATE HOLDER.</td></tr>\n<tr><td id=\"0-3\" colspan=\"4\">IMPORTANT: If the certificate holder is an ADDITIONAL INSURED the policy(ies) must be endorsed. If SUBROGATION IS WAIVED, subject to the terms and conditions of the policy, certain policies may require an endorsement. A statement on this certificate does not confer rights to the certificate holder in lieu of such endorsement(s).</td></tr>\n<tr><td id=\"0-4\" rowspan=\"5\">PRODUCER Sample Agency 123 Sample St Phoenix AZ 12345</td><td id=\"0-5\">CONTACT NAME: Sample Agent</td><td id=\"0-6\" colspan=\"2\">horizontal line</td></tr>\n<tr><td id=\"0-7\">PHONE (A/C, No Ext): 123-456-7890</td><td id=\"0-8\" colspan=\"2\">FAX (A/C, No): 123-456-7890</td></tr>\n<tr><td id=\"0-9\" colspan=\"2\">E-MAIL ADDRESS: Sample email</td><td id=\"0-a\"></td></tr>\n<tr><td id=\"0-b\" colspan=\"2\">INSURER(S) AFFORDING COVERAGE</td><td id=\"0-c\">NAIC #</td></tr>\n<tr><td id=\"0-d\">INSURER A: Sample company</td><td id=\"0-e\"></td><td id=\"0-f\">12345</td></tr>\n<tr><td id=\"0-g\" rowspan=\"5\">INSURED Sample Insured Inc. 123 Sample St Phoenix AZ 12345</td><td id=\"0-h\">INSURER B:</td><td id=\"0-i\"></td><td id=\"0-j\"></td></tr>\n<tr><td id=\"0-k\">INSURER C: (could have multiple</td><td id=\"0-l\"></td><td id=\"0-m\"></td></tr>\n<tr><td id=\"0-n\">companies listed)</td><td id=\"0-o\"></td><td id=\"0-p\"></td></tr>\n<tr><td id=\"0-q\">INSURERE:</td><td id=\"0-r\"></td><td id=\"0-s\"></td></tr>\n<tr><td id=\"0-t\" colspan=\"2\">INSURER F :</td><td id=\"0-u\"></td></tr>\n</table>",
+      "type": "table"
+    },
+    {
+      "id": "951e5da5-c424-48cf-9b71-3fdd0b8f31d4",
+      "grounding": {
+        "box": {
+          "bottom": 0.6793388724327087,
+          "left": 0.12228283286094666,
+          "right": 0.8861033916473389,
+          "top": 0.3423845171928406
+        },
+        "page": 0
+      },
+      "markdown": "<a id='951e5da5-c424-48cf-9b71-3fdd0b8f31d4'></a>\n\nCERTIFICATE NUMBER:\nREVISION NUMBER:\n<table id=\"0-v\">\n<tr><td id=\"0-w\" colspan=\"2\">THIS IS TO CERTIFY THAT THE POLICIES OF INSURANCE LISTED BELOW HAVE BEEN ISSUED TO THE INSURED NAMED ABOVE FOR THE POLICY PERIOD INDICATED. NOTWITHSTANDING ANY REQUIREMENT, TERM OR CONDITION OF ANY CONTRACT OR OTHER DOCUMENT WITH RESPECT TO WHICH THIS CERTIFICATE MAY BE ISSUED OR MAY PERTAIN, THE INSURANCE AFFORDED BY THE POLICIES DESCRIBED HEREIN IS SUBJECT TO ALL THE TERMS EXCLUSIONS AND CONDITIONS OF SUCH POLICIES. LIMITS SHOWN MAY HAVE BEEN REDUCED BY PAID CLAIMS.</td></tr>\n</table>\n<table id=\"0-x\">\n<tr><td id=\"0-y\">INSR LTR</td><td id=\"0-z\" colspan=\"6\">TYPE OF INSURANCE</td><td id=\"0-A\">ADDL INSR</td><td id=\"0-B\">SUBR WVD</td><td id=\"0-C\">POLICY NUMBER</td><td id=\"0-D\">POLICY EFF (MM/DD/YYYY)</td><td id=\"0-E\">POLICY EXP (MM/DD/YYYY)</td><td id=\"0-F\" colspan=\"2\">LIMITS</td></tr>\n<tr><td id=\"0-G\" rowspan=\"7\">A</td><td id=\"0-H\" colspan=\"6\">GENERAL LIABILITY</td><td id=\"0-I\" rowspan=\"7\">Y</td><td id=\"0-J\" rowspan=\"7\">Y</td><td id=\"0-K\" rowspan=\"7\">Sample no</td><td id=\"0-L\" rowspan=\"7\">01/01/10</td><td id=\"0-M\" rowspan=\"7\">01/01/11</td><td id=\"0-N\">EACH OCCURRENCE</td><td id=\"0-O\">$1,000,000</td></tr>\n<tr><td id=\"0-P\" colspan=\"6\">X COMMERCIAL GENERAL LIABILITY</td><td id=\"0-Q\">DAMAGE TO RENTED PREMISES (Ea occurrence)</td><td id=\"0-R\">$50,000</td></tr>\n<tr><td id=\"0-S\" colspan=\"6\">CLAIMS-MADE X OCCUR</td><td id=\"0-T\">MED EXP (Any one person)</td><td id=\"0-U\">Not required/any amount</td></tr>\n<tr><td id=\"0-V\" colspan=\"6\">horizontal line graph</td><td id=\"0-W\">PERSONAL & ADV INJURY</td><td id=\"0-X\">$1,000,000</td></tr>\n<tr><td id=\"0-Y\" colspan=\"6\">graph with vertical line</td><td id=\"0-Z\">GENERAL AGGREGATE</td><td id=\"0-10\">$2,000,000</td></tr>\n<tr><td id=\"0-11\" colspan=\"6\">GEN'L AGGREGATE LIMIT APPLIES PER:</td><td id=\"0-12\">PRODUCTS - COMPIOP AGG</td><td id=\"0-13\">$1,000,000</td></tr>\n<tr><td id=\"0-14\">X POLICY</td><td id=\"0-15\">(blurred image)</td><td id=\"0-16\" colspan=\"2\">PRO-JECT</td><td id=\"0-17\"></td><td id=\"0-18\">LOC</td><td id=\"0-19\"></td><td id=\"0-1a\">$</td></tr>\n<tr><td id=\"0-1b\" rowspan=\"5\">A</td><td id=\"0-1c\" rowspan=\"5\" colspan=\"6\">AUTOMOBILE LIABILITY X ANY AUTO ALL OWNED AUTOS HIRED AUTOS SCHEDULED AUTOS NON-OWNED AUTOS</td><td id=\"0-1d\" rowspan=\"5\">Y</td><td id=\"0-1e\" rowspan=\"5\">Y</td><td id=\"0-1f\" rowspan=\"5\">Sample no</td><td id=\"0-1g\" rowspan=\"5\">01/01/10</td><td id=\"0-1h\" rowspan=\"5\">01/01/11</td><td id=\"0-1i\">COMBINED SINGLE LIMIT (Ea accident)</td><td id=\"0-1j\">$1,000,000</td></tr>\n<tr><td id=\"0-1k\">BODILY INJURY (Per person)</td><td id=\"0-1l\">$ </td></tr>\n<tr><td id=\"0-1m\">BODILY INJURY (Per accident)</td><td id=\"0-1n\">$</td></tr>\n<tr><td id=\"0-1o\">PROPERTY DAMAGE (Per accident)</td><td id=\"0-1p\">$</td></tr>\n<tr><td id=\"0-1q\"></td><td id=\"0-1r\">$</td></tr>\n</table>\n<table id=\"0-1s\">\n<tr><td id=\"0-1t\" rowspan=\"3\">A</td><td id=\"0-1u\">X (letter)</td><td id=\"0-1v\" rowspan=\"2\" colspan=\"3\">UMBRELLA LIAB EXCESS LIAB</td><td id=\"0-1w\">X</td><td id=\"0-1x\" rowspan=\"2\">OCCUR CLAIMS-MADE</td><td id=\"0-1y\" rowspan=\"3\"></td><td id=\"0-1z\" rowspan=\"3\"></td><td id=\"0-1A\" rowspan=\"3\">This is an optional coverage that may not be shown</td><td id=\"0-1B\" rowspan=\"3\"></td><td id=\"0-1C\" rowspan=\"3\"></td><td id=\"0-1D\">EACH OCCURRENCE</td><td id=\"0-1E\">$</td></tr>\n<tr><td id=\"0-1F\" rowspan=\"2\">(image of a white rectangle with a black line)</td><td id=\"0-1G\"></td><td id=\"0-1H\">AGGREGATE</td><td id=\"0-1I\">optional amounts</td></tr>\n<tr><td id=\"0-1J\">DEO</td><td id=\"0-1K\"></td><td id=\"0-1L\" colspan=\"3\">RETENTION $</td><td id=\"0-1M\"></td><td id=\"0-1N\">$</td></tr>\n<tr><td id=\"0-1O\" rowspan=\"4\">A</td><td id=\"0-1P\" rowspan=\"4\" colspan=\"6\">WORKERS COMPENSATION AND EMPLOYERS' LIABILITY ANY PROPRIETOR/PARTNER/EXECUTIVE OFFICER/MEMBER EXCLUDED? (Mandatory In NH) If yes, describe under DESCRIPTION OF OPERATIONS below (Y/N N checkbox)</td><td id=\"0-1Q\" rowspan=\"4\">N/A</td><td id=\"0-1R\" rowspan=\"4\">Y</td><td id=\"0-1S\" rowspan=\"4\">Sample no</td><td id=\"0-1T\" rowspan=\"4\">01/01/10</td><td id=\"0-1U\" rowspan=\"4\">01/01/11</td><td id=\"0-1V\">X WC STATU- OTH- JORY LIMITS ER</td><td id=\"0-1W\"></td></tr>\n<tr><td id=\"0-1X\">EL. EACH ACCIDENT</td><td id=\"0-1Y\">$500 000</td></tr>\n<tr><td id=\"0-1Z\">EL. DISEASE EA EMPLOYEE</td><td id=\"0-20\">$500,000</td></tr>\n<tr><td id=\"0-21\">E.L. DISEASE POLICY LIMIT</td><td id=\"0-22\">$1,000,000</td></tr>\n<tr><td id=\"0-23\">A</td><td id=\"0-24\" colspan=\"6\">Professional Liability</td><td id=\"0-25\"></td><td id=\"0-26\"></td><td id=\"0-27\">Sample no</td><td id=\"0-28\">01/01/10</td><td id=\"0-29\">01/01/11</td><td id=\"0-2a\" colspan=\"2\">$1 000 000 Per occur $2 000 000 Agg limit</td></tr>\n</table>",
+      "type": "table"
+    },
+    {
+      "id": "d5b5893b-a202-4862-922a-b2f8dca32612",
+      "grounding": {
+        "box": {
+          "bottom": 0.7655287981033325,
+          "left": 0.12222912907600403,
+          "right": 0.8844102621078491,
+          "top": 0.669975757598877
+        },
+        "page": 0
+      },
+      "markdown": "<a id='d5b5893b-a202-4862-922a-b2f8dca32612'></a>\n\nDESCRIPTION OF OPERATIONS/LOCATIONS/VEHICLES (Attach ACORD 101 Additional Remarks Schedule if more space is required)\nThe State of Arizona its departments, agencies boards, commissions, universities and its officers, officials, agents, and employees shall be named as additional insureds with respect to liability arising out of the activities performed by or on behalf of the Contractor. Waiver of subrogation applies",
+      "type": "text"
+    },
+    {
+      "id": "6b6fdd5d-35e3-498f-bc99-2f83d9cd7986",
+      "grounding": {
+        "box": {
+          "bottom": 0.8634737730026245,
+          "left": 0.12179547548294067,
+          "right": 0.8844353556632996,
+          "top": 0.7618032693862915
+        },
+        "page": 0
+      },
+      "markdown": "<a id='6b6fdd5d-35e3-498f-bc99-2f83d9cd7986'></a>\n\n<table id=\"0-2b\">\n<tr><td id=\"0-2c\">CERTIFICATE HOLDER</td><td id=\"0-2d\">CANCELLATION</td></tr>\n<tr><td id=\"0-2e\" rowspan=\"2\">The State of Arizona Arizona Department of Transportation 205 S. 17th Street Phoenix AZ 85007</td><td id=\"0-2f\">SHOULD ANY OF THE ABOVE DESCRIBED POLICIES BE CANCELLED BEFORE THE EXPIRATION DATE THEREOF, NOTICE WILL BE DELIVERED IN ACCORDANCE WITH THE POLICY PROVISIONS</td></tr>\n<tr><td id=\"0-2g\">AUTHORIZED REPRESENTATIVE Signature of licensed producer</td></tr>\n</table>\n(C) 1988-2010 ACCORD CORPORATION. ALL RIGHTS RESERVED.",
+      "type": "table"
+    },
+    {
+      "id": "4a3e9b24-de6c-4a20-b39a-5288ec18c8d0",
+      "grounding": {
+        "box": {
+          "bottom": 0.8684478402137756,
+          "left": 0.567537784576416,
+          "right": 0.874550461769104,
+          "top": 0.8550234436988831
+        },
+        "page": 0
+      },
+      "markdown": "<a id='4a3e9b24-de6c-4a20-b39a-5288ec18c8d0'></a>\n\n\u00a9 1988-2010 ACCORD CORPORATION. All rights reserved",
+      "type": "marginalia"
+    },
+    {
+      "id": "d15527fb-5fd1-4048-9b2a-2958deb96f58",
+      "grounding": {
+        "box": {
+          "bottom": 0.884700357913971,
+          "left": 0.1277715116739273,
+          "right": 0.24633540213108063,
+          "top": 0.8697289824485779
+        },
+        "page": 0
+      },
+      "markdown": "<a id='d15527fb-5fd1-4048-9b2a-2958deb96f58'></a>\n\nACORD 25 (2009/09)",
+      "type": "marginalia"
+    },
+    {
+      "id": "5f0aa8be-c807-4ab5-9df4-b8b5fddcce83",
+      "grounding": {
+        "box": {
+          "bottom": 0.883139431476593,
+          "left": 0.3455287516117096,
+          "right": 0.6615866422653198,
+          "top": 0.8690552115440369
+        },
+        "page": 0
+      },
+      "markdown": "<a id='5f0aa8be-c807-4ab5-9df4-b8b5fddcce83'></a>\n\nThe ACORD name and logo are registered marks of ACORD",
+      "type": "marginalia"
+    }
+  ],
+  "markdown": "<a id='650829f5-7e3f-4566-bb2d-56b33e88c652'></a>\n\n<::logo: ACORD\nACORD \u00ae\nThe italicized and bold text \"ACORD\" is framed by two curved lines, one above and one below, with a horizontal line beneath the entire logo.::>\n\n<a id='ae98c088-99db-4197-86a4-d67d6230dce7'></a>\n\nCERTIFICATE OF LIABILITY INSURANCE\n\n<a id='35304d9e-ef98-4215-b1e3-41fbffe39092'></a>\n\nDATE (MM/DD/YYYY)\n01/01/2010\n\n<a id='ec08b414-8e4f-416c-8f16-d2d85d908f46'></a>\n\n<table id=\"0-1\">\n<tr><td id=\"0-2\" colspan=\"4\">THIS CERTIFICATE IS ISSUED AS A MATTER OF INFORMATION ONLY AND CONFERS NO RIGHTS UPON THE CERTIFICATE HOLDER. THIS CERTIFICATE DOES NOT AFFIRMATIVELY OR NEGATIVELY AMEND, EXTEND OR ALTER THE COVERAGE AFFORDED BY THE POLICIES BELOW. THIS CERTIFICATE OF INSURANCE DOES NOT CONSTITUTE A CONTRACT BETWEEN THE ISSUING INSURER(S), AUTHORIZED REPRESENTATIVE OR PRODUCER, AND THE CERTIFICATE HOLDER.</td></tr>\n<tr><td id=\"0-3\" colspan=\"4\">IMPORTANT: If the certificate holder is an ADDITIONAL INSURED the policy(ies) must be endorsed. If SUBROGATION IS WAIVED, subject to the terms and conditions of the policy, certain policies may require an endorsement. A statement on this certificate does not confer rights to the certificate holder in lieu of such endorsement(s).</td></tr>\n<tr><td id=\"0-4\" rowspan=\"5\">PRODUCER Sample Agency 123 Sample St Phoenix AZ 12345</td><td id=\"0-5\">CONTACT NAME: Sample Agent</td><td id=\"0-6\" colspan=\"2\">horizontal line</td></tr>\n<tr><td id=\"0-7\">PHONE (A/C, No Ext): 123-456-7890</td><td id=\"0-8\" colspan=\"2\">FAX (A/C, No): 123-456-7890</td></tr>\n<tr><td id=\"0-9\" colspan=\"2\">E-MAIL ADDRESS: Sample email</td><td id=\"0-a\"></td></tr>\n<tr><td id=\"0-b\" colspan=\"2\">INSURER(S) AFFORDING COVERAGE</td><td id=\"0-c\">NAIC #</td></tr>\n<tr><td id=\"0-d\">INSURER A: Sample company</td><td id=\"0-e\"></td><td id=\"0-f\">12345</td></tr>\n<tr><td id=\"0-g\" rowspan=\"5\">INSURED Sample Insured Inc. 123 Sample St Phoenix AZ 12345</td><td id=\"0-h\">INSURER B:</td><td id=\"0-i\"></td><td id=\"0-j\"></td></tr>\n<tr><td id=\"0-k\">INSURER C: (could have multiple</td><td id=\"0-l\"></td><td id=\"0-m\"></td></tr>\n<tr><td id=\"0-n\">companies listed)</td><td id=\"0-o\"></td><td id=\"0-p\"></td></tr>\n<tr><td id=\"0-q\">INSURERE:</td><td id=\"0-r\"></td><td id=\"0-s\"></td></tr>\n<tr><td id=\"0-t\" colspan=\"2\">INSURER F :</td><td id=\"0-u\"></td></tr>\n</table>\n\n<a id='951e5da5-c424-48cf-9b71-3fdd0b8f31d4'></a>\n\nCERTIFICATE NUMBER:\nREVISION NUMBER:\n<table id=\"0-v\">\n<tr><td id=\"0-w\" colspan=\"2\">THIS IS TO CERTIFY THAT THE POLICIES OF INSURANCE LISTED BELOW HAVE BEEN ISSUED TO THE INSURED NAMED ABOVE FOR THE POLICY PERIOD INDICATED. NOTWITHSTANDING ANY REQUIREMENT, TERM OR CONDITION OF ANY CONTRACT OR OTHER DOCUMENT WITH RESPECT TO WHICH THIS CERTIFICATE MAY BE ISSUED OR MAY PERTAIN, THE INSURANCE AFFORDED BY THE POLICIES DESCRIBED HEREIN IS SUBJECT TO ALL THE TERMS EXCLUSIONS AND CONDITIONS OF SUCH POLICIES. LIMITS SHOWN MAY HAVE BEEN REDUCED BY PAID CLAIMS.</td></tr>\n</table>\n<table id=\"0-x\">\n<tr><td id=\"0-y\">INSR LTR</td><td id=\"0-z\" colspan=\"6\">TYPE OF INSURANCE</td><td id=\"0-A\">ADDL INSR</td><td id=\"0-B\">SUBR WVD</td><td id=\"0-C\">POLICY NUMBER</td><td id=\"0-D\">POLICY EFF (MM/DD/YYYY)</td><td id=\"0-E\">POLICY EXP (MM/DD/YYYY)</td><td id=\"0-F\" colspan=\"2\">LIMITS</td></tr>\n<tr><td id=\"0-G\" rowspan=\"7\">A</td><td id=\"0-H\" colspan=\"6\">GENERAL LIABILITY</td><td id=\"0-I\" rowspan=\"7\">Y</td><td id=\"0-J\" rowspan=\"7\">Y</td><td id=\"0-K\" rowspan=\"7\">Sample no</td><td id=\"0-L\" rowspan=\"7\">01/01/10</td><td id=\"0-M\" rowspan=\"7\">01/01/11</td><td id=\"0-N\">EACH OCCURRENCE</td><td id=\"0-O\">$1,000,000</td></tr>\n<tr><td id=\"0-P\" colspan=\"6\">X COMMERCIAL GENERAL LIABILITY</td><td id=\"0-Q\">DAMAGE TO RENTED PREMISES (Ea occurrence)</td><td id=\"0-R\">$50,000</td></tr>\n<tr><td id=\"0-S\" colspan=\"6\">CLAIMS-MADE X OCCUR</td><td id=\"0-T\">MED EXP (Any one person)</td><td id=\"0-U\">Not required/any amount</td></tr>\n<tr><td id=\"0-V\" colspan=\"6\">horizontal line graph</td><td id=\"0-W\">PERSONAL & ADV INJURY</td><td id=\"0-X\">$1,000,000</td></tr>\n<tr><td id=\"0-Y\" colspan=\"6\">graph with vertical line</td><td id=\"0-Z\">GENERAL AGGREGATE</td><td id=\"0-10\">$2,000,000</td></tr>\n<tr><td id=\"0-11\" colspan=\"6\">GEN'L AGGREGATE LIMIT APPLIES PER:</td><td id=\"0-12\">PRODUCTS - COMPIOP AGG</td><td id=\"0-13\">$1,000,000</td></tr>\n<tr><td id=\"0-14\">X POLICY</td><td id=\"0-15\">(blurred image)</td><td id=\"0-16\" colspan=\"2\">PRO-JECT</td><td id=\"0-17\"></td><td id=\"0-18\">LOC</td><td id=\"0-19\"></td><td id=\"0-1a\">$</td></tr>\n<tr><td id=\"0-1b\" rowspan=\"5\">A</td><td id=\"0-1c\" rowspan=\"5\" colspan=\"6\">AUTOMOBILE LIABILITY X ANY AUTO ALL OWNED AUTOS HIRED AUTOS SCHEDULED AUTOS NON-OWNED AUTOS</td><td id=\"0-1d\" rowspan=\"5\">Y</td><td id=\"0-1e\" rowspan=\"5\">Y</td><td id=\"0-1f\" rowspan=\"5\">Sample no</td><td id=\"0-1g\" rowspan=\"5\">01/01/10</td><td id=\"0-1h\" rowspan=\"5\">01/01/11</td><td id=\"0-1i\">COMBINED SINGLE LIMIT (Ea accident)</td><td id=\"0-1j\">$1,000,000</td></tr>\n<tr><td id=\"0-1k\">BODILY INJURY (Per person)</td><td id=\"0-1l\">$ </td></tr>\n<tr><td id=\"0-1m\">BODILY INJURY (Per accident)</td><td id=\"0-1n\">$</td></tr>\n<tr><td id=\"0-1o\">PROPERTY DAMAGE (Per accident)</td><td id=\"0-1p\">$</td></tr>\n<tr><td id=\"0-1q\"></td><td id=\"0-1r\">$</td></tr>\n</table>\n<table id=\"0-1s\">\n<tr><td id=\"0-1t\" rowspan=\"3\">A</td><td id=\"0-1u\">X (letter)</td><td id=\"0-1v\" rowspan=\"2\" colspan=\"3\">UMBRELLA LIAB EXCESS LIAB</td><td id=\"0-1w\">X</td><td id=\"0-1x\" rowspan=\"2\">OCCUR CLAIMS-MADE</td><td id=\"0-1y\" rowspan=\"3\"></td><td id=\"0-1z\" rowspan=\"3\"></td><td id=\"0-1A\" rowspan=\"3\">This is an optional coverage that may not be shown</td><td id=\"0-1B\" rowspan=\"3\"></td><td id=\"0-1C\" rowspan=\"3\"></td><td id=\"0-1D\">EACH OCCURRENCE</td><td id=\"0-1E\">$</td></tr>\n<tr><td id=\"0-1F\" rowspan=\"2\">(image of a white rectangle with a black line)</td><td id=\"0-1G\"></td><td id=\"0-1H\">AGGREGATE</td><td id=\"0-1I\">optional amounts</td></tr>\n<tr><td id=\"0-1J\">DEO</td><td id=\"0-1K\"></td><td id=\"0-1L\" colspan=\"3\">RETENTION $</td><td id=\"0-1M\"></td><td id=\"0-1N\">$</td></tr>\n<tr><td id=\"0-1O\" rowspan=\"4\">A</td><td id=\"0-1P\" rowspan=\"4\" colspan=\"6\">WORKERS COMPENSATION AND EMPLOYERS' LIABILITY ANY PROPRIETOR/PARTNER/EXECUTIVE OFFICER/MEMBER EXCLUDED? (Mandatory In NH) If yes, describe under DESCRIPTION OF OPERATIONS below (Y/N N checkbox)</td><td id=\"0-1Q\" rowspan=\"4\">N/A</td><td id=\"0-1R\" rowspan=\"4\">Y</td><td id=\"0-1S\" rowspan=\"4\">Sample no</td><td id=\"0-1T\" rowspan=\"4\">01/01/10</td><td id=\"0-1U\" rowspan=\"4\">01/01/11</td><td id=\"0-1V\">X WC STATU- OTH- JORY LIMITS ER</td><td id=\"0-1W\"></td></tr>\n<tr><td id=\"0-1X\">EL. EACH ACCIDENT</td><td id=\"0-1Y\">$500 000</td></tr>\n<tr><td id=\"0-1Z\">EL. DISEASE EA EMPLOYEE</td><td id=\"0-20\">$500,000</td></tr>\n<tr><td id=\"0-21\">E.L. DISEASE POLICY LIMIT</td><td id=\"0-22\">$1,000,000</td></tr>\n<tr><td id=\"0-23\">A</td><td id=\"0-24\" colspan=\"6\">Professional Liability</td><td id=\"0-25\"></td><td id=\"0-26\"></td><td id=\"0-27\">Sample no</td><td id=\"0-28\">01/01/10</td><td id=\"0-29\">01/01/11</td><td id=\"0-2a\" colspan=\"2\">$1 000 000 Per occur $2 000 000 Agg limit</td></tr>\n</table>\n\n<a id='d5b5893b-a202-4862-922a-b2f8dca32612'></a>\n\nDESCRIPTION OF OPERATIONS/LOCATIONS/VEHICLES (Attach ACORD 101 Additional Remarks Schedule if more space is required)\nThe State of Arizona its departments, agencies boards, commissions, universities and its officers, officials, agents, and employees shall be named as additional insureds with respect to liability arising out of the activities performed by or on behalf of the Contractor. Waiver of subrogation applies\n\n<a id='6b6fdd5d-35e3-498f-bc99-2f83d9cd7986'></a>\n\n<table id=\"0-2b\">\n<tr><td id=\"0-2c\">CERTIFICATE HOLDER</td><td id=\"0-2d\">CANCELLATION</td></tr>\n<tr><td id=\"0-2e\" rowspan=\"2\">The State of Arizona Arizona Department of Transportation 205 S. 17th Street Phoenix AZ 85007</td><td id=\"0-2f\">SHOULD ANY OF THE ABOVE DESCRIBED POLICIES BE CANCELLED BEFORE THE EXPIRATION DATE THEREOF, NOTICE WILL BE DELIVERED IN ACCORDANCE WITH THE POLICY PROVISIONS</td></tr>\n<tr><td id=\"0-2g\">AUTHORIZED REPRESENTATIVE Signature of licensed producer</td></tr>\n</table>\n(C) 1988-2010 ACCORD CORPORATION. ALL RIGHTS RESERVED.\n\n<a id='4a3e9b24-de6c-4a20-b39a-5288ec18c8d0'></a>\n\n\u00a9 1988-2010 ACCORD CORPORATION. All rights reserved\n\n<a id='d15527fb-5fd1-4048-9b2a-2958deb96f58'></a>\n\nACORD 25 (2009/09)\n\n<a id='5f0aa8be-c807-4ab5-9df4-b8b5fddcce83'></a>\n\nThe ACORD name and logo are registered marks of ACORD",
+  "metadata": {
+    "credit_usage": 3.0,
+    "duration_ms": 137876,
+    "filename": "accord-form.pdf",
+    "job_id": "f8nte8vby4l1acepbuhvdp428",
+    "org_id": null,
+    "page_count": 1,
+    "version": "dpt-2-20250919"
+  },
+  "splits": [
+    {
+      "chunks": [
+        "650829f5-7e3f-4566-bb2d-56b33e88c652",
+        "ae98c088-99db-4197-86a4-d67d6230dce7",
+        "35304d9e-ef98-4215-b1e3-41fbffe39092",
+        "ec08b414-8e4f-416c-8f16-d2d85d908f46",
+        "951e5da5-c424-48cf-9b71-3fdd0b8f31d4",
+        "d5b5893b-a202-4862-922a-b2f8dca32612",
+        "6b6fdd5d-35e3-498f-bc99-2f83d9cd7986",
+        "4a3e9b24-de6c-4a20-b39a-5288ec18c8d0",
+        "d15527fb-5fd1-4048-9b2a-2958deb96f58",
+        "5f0aa8be-c807-4ab5-9df4-b8b5fddcce83"
+      ],
+      "class_": "full",
+      "identifier": "full",
+      "markdown": "<a id='650829f5-7e3f-4566-bb2d-56b33e88c652'></a>\n\n<::logo: ACORD\nACORD \u00ae\nThe italicized and bold text \"ACORD\" is framed by two curved lines, one above and one below, with a horizontal line beneath the entire logo.::>\n\n<a id='ae98c088-99db-4197-86a4-d67d6230dce7'></a>\n\nCERTIFICATE OF LIABILITY INSURANCE\n\n<a id='35304d9e-ef98-4215-b1e3-41fbffe39092'></a>\n\nDATE (MM/DD/YYYY)\n01/01/2010\n\n<a id='ec08b414-8e4f-416c-8f16-d2d85d908f46'></a>\n\n<table id=\"0-1\">\n<tr><td id=\"0-2\" colspan=\"4\">THIS CERTIFICATE IS ISSUED AS A MATTER OF INFORMATION ONLY AND CONFERS NO RIGHTS UPON THE CERTIFICATE HOLDER. THIS CERTIFICATE DOES NOT AFFIRMATIVELY OR NEGATIVELY AMEND, EXTEND OR ALTER THE COVERAGE AFFORDED BY THE POLICIES BELOW. THIS CERTIFICATE OF INSURANCE DOES NOT CONSTITUTE A CONTRACT BETWEEN THE ISSUING INSURER(S), AUTHORIZED REPRESENTATIVE OR PRODUCER, AND THE CERTIFICATE HOLDER.</td></tr>\n<tr><td id=\"0-3\" colspan=\"4\">IMPORTANT: If the certificate holder is an ADDITIONAL INSURED the policy(ies) must be endorsed. If SUBROGATION IS WAIVED, subject to the terms and conditions of the policy, certain policies may require an endorsement. A statement on this certificate does not confer rights to the certificate holder in lieu of such endorsement(s).</td></tr>\n<tr><td id=\"0-4\" rowspan=\"5\">PRODUCER Sample Agency 123 Sample St Phoenix AZ 12345</td><td id=\"0-5\">CONTACT NAME: Sample Agent</td><td id=\"0-6\" colspan=\"2\">horizontal line</td></tr>\n<tr><td id=\"0-7\">PHONE (A/C, No Ext): 123-456-7890</td><td id=\"0-8\" colspan=\"2\">FAX (A/C, No): 123-456-7890</td></tr>\n<tr><td id=\"0-9\" colspan=\"2\">E-MAIL ADDRESS: Sample email</td><td id=\"0-a\"></td></tr>\n<tr><td id=\"0-b\" colspan=\"2\">INSURER(S) AFFORDING COVERAGE</td><td id=\"0-c\">NAIC #</td></tr>\n<tr><td id=\"0-d\">INSURER A: Sample company</td><td id=\"0-e\"></td><td id=\"0-f\">12345</td></tr>\n<tr><td id=\"0-g\" rowspan=\"5\">INSURED Sample Insured Inc. 123 Sample St Phoenix AZ 12345</td><td id=\"0-h\">INSURER B:</td><td id=\"0-i\"></td><td id=\"0-j\"></td></tr>\n<tr><td id=\"0-k\">INSURER C: (could have multiple</td><td id=\"0-l\"></td><td id=\"0-m\"></td></tr>\n<tr><td id=\"0-n\">companies listed)</td><td id=\"0-o\"></td><td id=\"0-p\"></td></tr>\n<tr><td id=\"0-q\">INSURERE:</td><td id=\"0-r\"></td><td id=\"0-s\"></td></tr>\n<tr><td id=\"0-t\" colspan=\"2\">INSURER F :</td><td id=\"0-u\"></td></tr>\n</table>\n\n<a id='951e5da5-c424-48cf-9b71-3fdd0b8f31d4'></a>\n\nCERTIFICATE NUMBER:\nREVISION NUMBER:\n<table id=\"0-v\">\n<tr><td id=\"0-w\" colspan=\"2\">THIS IS TO CERTIFY THAT THE POLICIES OF INSURANCE LISTED BELOW HAVE BEEN ISSUED TO THE INSURED NAMED ABOVE FOR THE POLICY PERIOD INDICATED. NOTWITHSTANDING ANY REQUIREMENT, TERM OR CONDITION OF ANY CONTRACT OR OTHER DOCUMENT WITH RESPECT TO WHICH THIS CERTIFICATE MAY BE ISSUED OR MAY PERTAIN, THE INSURANCE AFFORDED BY THE POLICIES DESCRIBED HEREIN IS SUBJECT TO ALL THE TERMS EXCLUSIONS AND CONDITIONS OF SUCH POLICIES. LIMITS SHOWN MAY HAVE BEEN REDUCED BY PAID CLAIMS.</td></tr>\n</table>\n<table id=\"0-x\">\n<tr><td id=\"0-y\">INSR LTR</td><td id=\"0-z\" colspan=\"6\">TYPE OF INSURANCE</td><td id=\"0-A\">ADDL INSR</td><td id=\"0-B\">SUBR WVD</td><td id=\"0-C\">POLICY NUMBER</td><td id=\"0-D\">POLICY EFF (MM/DD/YYYY)</td><td id=\"0-E\">POLICY EXP (MM/DD/YYYY)</td><td id=\"0-F\" colspan=\"2\">LIMITS</td></tr>\n<tr><td id=\"0-G\" rowspan=\"7\">A</td><td id=\"0-H\" colspan=\"6\">GENERAL LIABILITY</td><td id=\"0-I\" rowspan=\"7\">Y</td><td id=\"0-J\" rowspan=\"7\">Y</td><td id=\"0-K\" rowspan=\"7\">Sample no</td><td id=\"0-L\" rowspan=\"7\">01/01/10</td><td id=\"0-M\" rowspan=\"7\">01/01/11</td><td id=\"0-N\">EACH OCCURRENCE</td><td id=\"0-O\">$1,000,000</td></tr>\n<tr><td id=\"0-P\" colspan=\"6\">X COMMERCIAL GENERAL LIABILITY</td><td id=\"0-Q\">DAMAGE TO RENTED PREMISES (Ea occurrence)</td><td id=\"0-R\">$50,000</td></tr>\n<tr><td id=\"0-S\" colspan=\"6\">CLAIMS-MADE X OCCUR</td><td id=\"0-T\">MED EXP (Any one person)</td><td id=\"0-U\">Not required/any amount</td></tr>\n<tr><td id=\"0-V\" colspan=\"6\">horizontal line graph</td><td id=\"0-W\">PERSONAL & ADV INJURY</td><td id=\"0-X\">$1,000,000</td></tr>\n<tr><td id=\"0-Y\" colspan=\"6\">graph with vertical line</td><td id=\"0-Z\">GENERAL AGGREGATE</td><td id=\"0-10\">$2,000,000</td></tr>\n<tr><td id=\"0-11\" colspan=\"6\">GEN'L AGGREGATE LIMIT APPLIES PER:</td><td id=\"0-12\">PRODUCTS - COMPIOP AGG</td><td id=\"0-13\">$1,000,000</td></tr>\n<tr><td id=\"0-14\">X POLICY</td><td id=\"0-15\">(blurred image)</td><td id=\"0-16\" colspan=\"2\">PRO-JECT</td><td id=\"0-17\"></td><td id=\"0-18\">LOC</td><td id=\"0-19\"></td><td id=\"0-1a\">$</td></tr>\n<tr><td id=\"0-1b\" rowspan=\"5\">A</td><td id=\"0-1c\" rowspan=\"5\" colspan=\"6\">AUTOMOBILE LIABILITY X ANY AUTO ALL OWNED AUTOS HIRED AUTOS SCHEDULED AUTOS NON-OWNED AUTOS</td><td id=\"0-1d\" rowspan=\"5\">Y</td><td id=\"0-1e\" rowspan=\"5\">Y</td><td id=\"0-1f\" rowspan=\"5\">Sample no</td><td id=\"0-1g\" rowspan=\"5\">01/01/10</td><td id=\"0-1h\" rowspan=\"5\">01/01/11</td><td id=\"0-1i\">COMBINED SINGLE LIMIT (Ea accident)</td><td id=\"0-1j\">$1,000,000</td></tr>\n<tr><td id=\"0-1k\">BODILY INJURY (Per person)</td><td id=\"0-1l\">$ </td></tr>\n<tr><td id=\"0-1m\">BODILY INJURY (Per accident)</td><td id=\"0-1n\">$</td></tr>\n<tr><td id=\"0-1o\">PROPERTY DAMAGE (Per accident)</td><td id=\"0-1p\">$</td></tr>\n<tr><td id=\"0-1q\"></td><td id=\"0-1r\">$</td></tr>\n</table>\n<table id=\"0-1s\">\n<tr><td id=\"0-1t\" rowspan=\"3\">A</td><td id=\"0-1u\">X (letter)</td><td id=\"0-1v\" rowspan=\"2\" colspan=\"3\">UMBRELLA LIAB EXCESS LIAB</td><td id=\"0-1w\">X</td><td id=\"0-1x\" rowspan=\"2\">OCCUR CLAIMS-MADE</td><td id=\"0-1y\" rowspan=\"3\"></td><td id=\"0-1z\" rowspan=\"3\"></td><td id=\"0-1A\" rowspan=\"3\">This is an optional coverage that may not be shown</td><td id=\"0-1B\" rowspan=\"3\"></td><td id=\"0-1C\" rowspan=\"3\"></td><td id=\"0-1D\">EACH OCCURRENCE</td><td id=\"0-1E\">$</td></tr>\n<tr><td id=\"0-1F\" rowspan=\"2\">(image of a white rectangle with a black line)</td><td id=\"0-1G\"></td><td id=\"0-1H\">AGGREGATE</td><td id=\"0-1I\">optional amounts</td></tr>\n<tr><td id=\"0-1J\">DEO</td><td id=\"0-1K\"></td><td id=\"0-1L\" colspan=\"3\">RETENTION $</td><td id=\"0-1M\"></td><td id=\"0-1N\">$</td></tr>\n<tr><td id=\"0-1O\" rowspan=\"4\">A</td><td id=\"0-1P\" rowspan=\"4\" colspan=\"6\">WORKERS COMPENSATION AND EMPLOYERS' LIABILITY ANY PROPRIETOR/PARTNER/EXECUTIVE OFFICER/MEMBER EXCLUDED? (Mandatory In NH) If yes, describe under DESCRIPTION OF OPERATIONS below (Y/N N checkbox)</td><td id=\"0-1Q\" rowspan=\"4\">N/A</td><td id=\"0-1R\" rowspan=\"4\">Y</td><td id=\"0-1S\" rowspan=\"4\">Sample no</td><td id=\"0-1T\" rowspan=\"4\">01/01/10</td><td id=\"0-1U\" rowspan=\"4\">01/01/11</td><td id=\"0-1V\">X WC STATU- OTH- JORY LIMITS ER</td><td id=\"0-1W\"></td></tr>\n<tr><td id=\"0-1X\">EL. EACH ACCIDENT</td><td id=\"0-1Y\">$500 000</td></tr>\n<tr><td id=\"0-1Z\">EL. DISEASE EA EMPLOYEE</td><td id=\"0-20\">$500,000</td></tr>\n<tr><td id=\"0-21\">E.L. DISEASE POLICY LIMIT</td><td id=\"0-22\">$1,000,000</td></tr>\n<tr><td id=\"0-23\">A</td><td id=\"0-24\" colspan=\"6\">Professional Liability</td><td id=\"0-25\"></td><td id=\"0-26\"></td><td id=\"0-27\">Sample no</td><td id=\"0-28\">01/01/10</td><td id=\"0-29\">01/01/11</td><td id=\"0-2a\" colspan=\"2\">$1 000 000 Per occur $2 000 000 Agg limit</td></tr>\n</table>\n\n<a id='d5b5893b-a202-4862-922a-b2f8dca32612'></a>\n\nDESCRIPTION OF OPERATIONS/LOCATIONS/VEHICLES (Attach ACORD 101 Additional Remarks Schedule if more space is required)\nThe State of Arizona its departments, agencies boards, commissions, universities and its officers, officials, agents, and employees shall be named as additional insureds with respect to liability arising out of the activities performed by or on behalf of the Contractor. Waiver of subrogation applies\n\n<a id='6b6fdd5d-35e3-498f-bc99-2f83d9cd7986'></a>\n\n<table id=\"0-2b\">\n<tr><td id=\"0-2c\">CERTIFICATE HOLDER</td><td id=\"0-2d\">CANCELLATION</td></tr>\n<tr><td id=\"0-2e\" rowspan=\"2\">The State of Arizona Arizona Department of Transportation 205 S. 17th Street Phoenix AZ 85007</td><td id=\"0-2f\">SHOULD ANY OF THE ABOVE DESCRIBED POLICIES BE CANCELLED BEFORE THE EXPIRATION DATE THEREOF, NOTICE WILL BE DELIVERED IN ACCORDANCE WITH THE POLICY PROVISIONS</td></tr>\n<tr><td id=\"0-2g\">AUTHORIZED REPRESENTATIVE Signature of licensed producer</td></tr>\n</table>\n(C) 1988-2010 ACCORD CORPORATION. ALL RIGHTS RESERVED.\n\n<a id='4a3e9b24-de6c-4a20-b39a-5288ec18c8d0'></a>\n\n\u00a9 1988-2010 ACCORD CORPORATION. All rights reserved\n\n<a id='d15527fb-5fd1-4048-9b2a-2958deb96f58'></a>\n\nACORD 25 (2009/09)\n\n<a id='5f0aa8be-c807-4ab5-9df4-b8b5fddcce83'></a>\n\nThe ACORD name and logo are registered marks of ACORD",
+      "pages": [
+        0
+      ],
+      "class": "full"
+    }
+  ],
+  "grounding": {
+    "650829f5-7e3f-4566-bb2d-56b33e88c652": {
+      "box": {
+        "bottom": 0.1472478061914444,
+        "left": 0.12343274056911469,
+        "right": 0.23094795644283295,
+        "top": 0.1111384853720665
+      },
+      "page": 0,
+      "type": "chunkLogo"
+    },
+    "ae98c088-99db-4197-86a4-d67d6230dce7": {
+      "box": {
+        "bottom": 0.14138667285442352,
+        "left": 0.2754637598991394,
+        "right": 0.7148136496543884,
+        "top": 0.11927230656147003
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "35304d9e-ef98-4215-b1e3-41fbffe39092": {
+      "box": {
+        "bottom": 0.14335046708583832,
+        "left": 0.7624568343162537,
+        "right": 0.8830700516700745,
+        "top": 0.11285679787397385
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "ec08b414-8e4f-416c-8f16-d2d85d908f46": {
+      "box": {
+        "bottom": 0.34584882855415344,
+        "left": 0.1213904321193695,
+        "right": 0.8850322961807251,
+        "top": 0.14026805758476257
+      },
+      "page": 0,
+      "type": "chunkTable"
+    },
+    "0-1": {
+      "box": {
+        "bottom": 0.33893542629020956,
+        "left": 0.12602316841545957,
+        "right": 0.8801467717004403,
+        "top": 0.1473149180618818
+      },
+      "page": 0,
+      "type": "table"
+    },
+    "0-2": {
+      "box": {
+        "bottom": 0.2215005495030642,
+        "left": 0.12602316841545957,
+        "right": 0.8798405815184971,
+        "top": 0.1473149180618818
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-3": {
+      "box": {
+        "bottom": 0.2327858780813994,
+        "left": 0.12602316841545957,
+        "right": 0.8798405815184971,
+        "top": 0.19059512511287657
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-4": {
+      "box": {
+        "bottom": 0.2942675898763163,
+        "left": 0.12602316841545957,
+        "right": 0.7343586429211992,
+        "top": 0.2215005495030642
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-5": {
+      "box": {
+        "bottom": 0.2327858780813994,
+        "left": 0.5013071543452776,
+        "right": 0.7343586429211992,
+        "top": 0.2215005495030642
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-6": {
+      "box": {
+        "bottom": 0.24519522040138497,
+        "left": 0.7343586429211992,
+        "right": 0.8798405815184971,
+        "top": 0.2215005495030642
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-7": {
+      "box": {
+        "bottom": 0.24519522040138497,
+        "left": 0.5013071543452776,
+        "right": 0.7343586429211992,
+        "top": 0.2327858780813994
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-8": {
+      "box": {
+        "bottom": 0.25749624729973064,
+        "left": 0.7343586429211992,
+        "right": 0.8798405815184971,
+        "top": 0.2327858780813994
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-9": {
+      "box": {
+        "bottom": 0.26955446973178354,
+        "left": 0.5013071543452776,
+        "right": 0.8798405815184971,
+        "top": 0.24519522040138497
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-a": {
+      "box": {
+        "bottom": 0.25749624729973064,
+        "left": 0.8083491567374335,
+        "right": 0.8798405815184971,
+        "top": 0.24519522040138497
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-b": {
+      "box": {
+        "bottom": 0.2829222188107323,
+        "left": 0.5013071543452776,
+        "right": 0.8798405815184971,
+        "top": 0.25749624729973064
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-c": {
+      "box": {
+        "bottom": 0.26955446973178354,
+        "left": 0.8083491567374335,
+        "right": 0.8798405815184971,
+        "top": 0.25749624729973064
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-d": {
+      "box": {
+        "bottom": 0.2829222188107323,
+        "left": 0.5013071543452776,
+        "right": 0.7343586429211992,
+        "top": 0.26955446973178354
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-e": {
+      "box": {
+        "bottom": 0.2829222188107323,
+        "left": 0.7343586429211992,
+        "right": 0.8083491567374335,
+        "top": 0.26955446973178354
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-f": {
+      "box": {
+        "bottom": 0.2829222188107323,
+        "left": 0.8083491567374335,
+        "right": 0.8798405815184971,
+        "top": 0.26955446973178354
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-g": {
+      "box": {
+        "bottom": 0.33893542629020956,
+        "left": 0.12602316841545957,
+        "right": 0.7343586429211992,
+        "top": 0.2829222188107323
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-h": {
+      "box": {
+        "bottom": 0.2942675898763163,
+        "left": 0.5013071543452776,
+        "right": 0.7343586429211992,
+        "top": 0.2829222188107323
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-i": {
+      "box": {
+        "bottom": 0.2942675898763163,
+        "left": 0.7343586429211992,
+        "right": 0.8083491567374335,
+        "top": 0.2829222188107323
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-j": {
+      "box": {
+        "bottom": 0.2942675898763163,
+        "left": 0.8083491567374335,
+        "right": 0.8798405815184971,
+        "top": 0.2829222188107323
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-k": {
+      "box": {
+        "bottom": 0.3066061249488392,
+        "left": 0.5013071543452776,
+        "right": 0.7343586429211992,
+        "top": 0.2942675898763163
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-l": {
+      "box": {
+        "bottom": 0.3066061249488392,
+        "left": 0.7343586429211992,
+        "right": 0.8083491567374335,
+        "top": 0.2942675898763163
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-m": {
+      "box": {
+        "bottom": 0.3066061249488392,
+        "left": 0.8083491567374335,
+        "right": 0.8798405815184971,
+        "top": 0.2942675898763163
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-n": {
+      "box": {
+        "bottom": 0.3186070864537669,
+        "left": 0.5013071543452776,
+        "right": 0.7343586429211992,
+        "top": 0.3066061249488392
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-o": {
+      "box": {
+        "bottom": 0.3186070864537669,
+        "left": 0.7343586429211992,
+        "right": 0.8083491567374335,
+        "top": 0.3066061249488392
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-p": {
+      "box": {
+        "bottom": 0.3186070864537669,
+        "left": 0.8083491567374335,
+        "right": 0.8798405815184971,
+        "top": 0.3066061249488392
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-q": {
+      "box": {
+        "bottom": 0.3309226705918782,
+        "left": 0.5013071543452776,
+        "right": 0.7343586429211992,
+        "top": 0.3186070864537669
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-r": {
+      "box": {
+        "bottom": 0.3309226705918782,
+        "left": 0.7343586429211992,
+        "right": 0.8083491567374335,
+        "top": 0.3186070864537669
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-s": {
+      "box": {
+        "bottom": 0.3309226705918782,
+        "left": 0.8083491567374335,
+        "right": 0.8798405815184971,
+        "top": 0.3186070864537669
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-t": {
+      "box": {
+        "bottom": 0.33893542629020956,
+        "left": 0.5013071543452776,
+        "right": 0.8798405815184971,
+        "top": 0.3309226705918782
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-u": {
+      "box": {
+        "bottom": 0.33893542629020956,
+        "left": 0.8083491567374335,
+        "right": 0.8798405815184971,
+        "top": 0.3309226705918782
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "951e5da5-c424-48cf-9b71-3fdd0b8f31d4": {
+      "box": {
+        "bottom": 0.6793388724327087,
+        "left": 0.12228283286094666,
+        "right": 0.8861033916473389,
+        "top": 0.3423845171928406
+      },
+      "page": 0,
+      "type": "chunkTable"
+    },
+    "0-v": {
+      "box": {
+        "bottom": 0.3884690949111942,
+        "left": 0.1276098312698732,
+        "right": 0.8790140699069511,
+        "top": 0.3565837133251062
+      },
+      "page": 0,
+      "type": "table"
+    },
+    "0-w": {
+      "box": {
+        "bottom": 0.3884690949111942,
+        "left": 0.1276098312698732,
+        "right": 0.8793373589310622,
+        "top": 0.3565837133251062
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-x": {
+      "box": {
+        "bottom": 0.5489862325688648,
+        "left": 0.12725655757006643,
+        "right": 0.8788108817764613,
+        "top": 0.3946799852988576
+      },
+      "page": 0,
+      "type": "table"
+    },
+    "0-y": {
+      "box": {
+        "bottom": 0.4071468547544228,
+        "left": 0.12725655757006643,
+        "right": 0.15092281276412944,
+        "top": 0.3946799852988576
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-z": {
+      "box": {
+        "bottom": 0.4191487635133164,
+        "left": 0.15092281276412944,
+        "right": 0.35976265946022057,
+        "top": 0.3946799852988576
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-A": {
+      "box": {
+        "bottom": 0.4071468547544228,
+        "left": 0.3367238434396853,
+        "right": 0.35976265946022057,
+        "top": 0.3946799852988576
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-B": {
+      "box": {
+        "bottom": 0.4071468547544228,
+        "left": 0.35976265946022057,
+        "right": 0.38304609341154716,
+        "top": 0.3946799852988576
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-C": {
+      "box": {
+        "bottom": 0.4071468547544228,
+        "left": 0.38304609341154716,
+        "right": 0.5374442147036191,
+        "top": 0.3946799852988576
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-D": {
+      "box": {
+        "bottom": 0.4071468547544228,
+        "left": 0.5374442147036191,
+        "right": 0.5991976539429551,
+        "top": 0.3946799852988576
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-E": {
+      "box": {
+        "bottom": 0.4071468547544228,
+        "left": 0.5991976539429551,
+        "right": 0.6606029007507459,
+        "top": 0.3946799852988576
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-F": {
+      "box": {
+        "bottom": 0.4191487635133164,
+        "left": 0.6606029007507459,
+        "right": 0.8790357408794165,
+        "top": 0.3946799852988576
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-G": {
+      "box": {
+        "bottom": 0.5050522543515896,
+        "left": 0.12725655757006643,
+        "right": 0.20528994745488593,
+        "top": 0.4071468547544228
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-H": {
+      "box": {
+        "bottom": 0.431577739397639,
+        "left": 0.15092281276412944,
+        "right": 0.35976265946022057,
+        "top": 0.4071468547544228
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-I": {
+      "box": {
+        "bottom": 0.5050522543515896,
+        "left": 0.3367238434396853,
+        "right": 0.38304609341154716,
+        "top": 0.4071468547544228
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-J": {
+      "box": {
+        "bottom": 0.5050522543515896,
+        "left": 0.35976265946022057,
+        "right": 0.5374442147036191,
+        "top": 0.4071468547544228
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-K": {
+      "box": {
+        "bottom": 0.5050522543515896,
+        "left": 0.38304609341154716,
+        "right": 0.5991976539429551,
+        "top": 0.4071468547544228
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-L": {
+      "box": {
+        "bottom": 0.5050522543515896,
+        "left": 0.5374442147036191,
+        "right": 0.6606029007507459,
+        "top": 0.4071468547544228
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-M": {
+      "box": {
+        "bottom": 0.5050522543515896,
+        "left": 0.5991976539429551,
+        "right": 0.7757969580897957,
+        "top": 0.4071468547544228
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-N": {
+      "box": {
+        "bottom": 0.4191487635133164,
+        "left": 0.6606029007507459,
+        "right": 0.7757969580897957,
+        "top": 0.4071468547544228
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-O": {
+      "box": {
+        "bottom": 0.4191487635133164,
+        "left": 0.7757969580897957,
+        "right": 0.8790357408794165,
+        "top": 0.4071468547544228
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-P": {
+      "box": {
+        "bottom": 0.44385801803638714,
+        "left": 0.15092281276412944,
+        "right": 0.35976265946022057,
+        "top": 0.4191487635133164
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-Q": {
+      "box": {
+        "bottom": 0.431577739397639,
+        "left": 0.6606029007507459,
+        "right": 0.7757969580897957,
+        "top": 0.4191487635133164
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-R": {
+      "box": {
+        "bottom": 0.431577739397639,
+        "left": 0.7757969580897957,
+        "right": 0.8790357408794165,
+        "top": 0.4191487635133164
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-S": {
+      "box": {
+        "bottom": 0.4561809049758594,
+        "left": 0.15092281276412944,
+        "right": 0.35976265946022057,
+        "top": 0.431577739397639
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-T": {
+      "box": {
+        "bottom": 0.44385801803638714,
+        "left": 0.6606029007507459,
+        "right": 0.7757969580897957,
+        "top": 0.431577739397639
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-U": {
+      "box": {
+        "bottom": 0.44385801803638714,
+        "left": 0.7757969580897957,
+        "right": 0.8790357408794165,
+        "top": 0.431577739397639
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-V": {
+      "box": {
+        "bottom": 0.4683871337419845,
+        "left": 0.15092281276412944,
+        "right": 0.35976265946022057,
+        "top": 0.44385801803638714
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-W": {
+      "box": {
+        "bottom": 0.4561809049758594,
+        "left": 0.6606029007507459,
+        "right": 0.7757969580897957,
+        "top": 0.44385801803638714
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-X": {
+      "box": {
+        "bottom": 0.4561809049758594,
+        "left": 0.7757969580897957,
+        "right": 0.8790357408794165,
+        "top": 0.44385801803638714
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-Y": {
+      "box": {
+        "bottom": 0.48060707991060525,
+        "left": 0.15092281276412944,
+        "right": 0.35976265946022057,
+        "top": 0.4561809049758594
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-Z": {
+      "box": {
+        "bottom": 0.4683871337419845,
+        "left": 0.6606029007507459,
+        "right": 0.7757969580897957,
+        "top": 0.4561809049758594
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-10": {
+      "box": {
+        "bottom": 0.4683871337419845,
+        "left": 0.7757969580897957,
+        "right": 0.8790357408794165,
+        "top": 0.4561809049758594
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-11": {
+      "box": {
+        "bottom": 0.4932247905835112,
+        "left": 0.15092281276412944,
+        "right": 0.35976265946022057,
+        "top": 0.4683871337419845
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-12": {
+      "box": {
+        "bottom": 0.48060707991060525,
+        "left": 0.6606029007507459,
+        "right": 0.7757969580897957,
+        "top": 0.4683871337419845
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-13": {
+      "box": {
+        "bottom": 0.48060707991060525,
+        "left": 0.7757969580897957,
+        "right": 0.8790357408794165,
+        "top": 0.4683871337419845
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-14": {
+      "box": {
+        "bottom": 0.4932247905835112,
+        "left": 0.15092281276412944,
+        "right": 0.20528994745488593,
+        "top": 0.48060707991060525
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-15": {
+      "box": {
+        "bottom": 0.4932247905835112,
+        "left": 0.20528994745488593,
+        "right": 0.22959436989284665,
+        "top": 0.48060707991060525
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-16": {
+      "box": {
+        "bottom": 0.5050522543515896,
+        "left": 0.22959436989284665,
+        "right": 0.28482072620368903,
+        "top": 0.48060707991060525
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-17": {
+      "box": {
+        "bottom": 0.4932247905835112,
+        "left": 0.26156642969433275,
+        "right": 0.28482072620368903,
+        "top": 0.48060707991060525
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-18": {
+      "box": {
+        "bottom": 0.4932247905835112,
+        "left": 0.28482072620368903,
+        "right": 0.3367238434396853,
+        "top": 0.48060707991060525
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-19": {
+      "box": {
+        "bottom": 0.4932247905835112,
+        "left": 0.6606029007507459,
+        "right": 0.7757969580897957,
+        "top": 0.48060707991060525
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1a": {
+      "box": {
+        "bottom": 0.4932247905835112,
+        "left": 0.7757969580897957,
+        "right": 0.8790357408794165,
+        "top": 0.48060707991060525
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1b": {
+      "box": {
+        "bottom": 0.5489862325688648,
+        "left": 0.12725655757006643,
+        "right": 0.20528994745488593,
+        "top": 0.4932247905835112
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1c": {
+      "box": {
+        "bottom": 0.5489862325688648,
+        "left": 0.15092281276412944,
+        "right": 0.35976265946022057,
+        "top": 0.4932247905835112
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1d": {
+      "box": {
+        "bottom": 0.5489862325688648,
+        "left": 0.3367238434396853,
+        "right": 0.38304609341154716,
+        "top": 0.4932247905835112
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1e": {
+      "box": {
+        "bottom": 0.5489862325688648,
+        "left": 0.35976265946022057,
+        "right": 0.5374442147036191,
+        "top": 0.4932247905835112
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1f": {
+      "box": {
+        "bottom": 0.5489862325688648,
+        "left": 0.38304609341154716,
+        "right": 0.5991976539429551,
+        "top": 0.4932247905835112
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1g": {
+      "box": {
+        "bottom": 0.5489862325688648,
+        "left": 0.5374442147036191,
+        "right": 0.6606029007507459,
+        "top": 0.4932247905835112
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1h": {
+      "box": {
+        "bottom": 0.5489862325688648,
+        "left": 0.5991976539429551,
+        "right": 0.7757969580897957,
+        "top": 0.4932247905835112
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1i": {
+      "box": {
+        "bottom": 0.5050522543515896,
+        "left": 0.6606029007507459,
+        "right": 0.7757969580897957,
+        "top": 0.4932247905835112
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1j": {
+      "box": {
+        "bottom": 0.5050522543515896,
+        "left": 0.7757969580897957,
+        "right": 0.8790357408794165,
+        "top": 0.4932247905835112
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1k": {
+      "box": {
+        "bottom": 0.5169939159975456,
+        "left": 0.6606029007507459,
+        "right": 0.7757969580897957,
+        "top": 0.5050522543515896
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1l": {
+      "box": {
+        "bottom": 0.5169939159975456,
+        "left": 0.7757969580897957,
+        "right": 0.8790357408794165,
+        "top": 0.5050522543515896
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1m": {
+      "box": {
+        "bottom": 0.5294618499074772,
+        "left": 0.6606029007507459,
+        "right": 0.7757969580897957,
+        "top": 0.5169939159975456
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1n": {
+      "box": {
+        "bottom": 0.5294618499074772,
+        "left": 0.7757969580897957,
+        "right": 0.8790357408794165,
+        "top": 0.5169939159975456
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1o": {
+      "box": {
+        "bottom": 0.5416495712264577,
+        "left": 0.6606029007507459,
+        "right": 0.7757969580897957,
+        "top": 0.5294618499074772
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1p": {
+      "box": {
+        "bottom": 0.5416495712264577,
+        "left": 0.7757969580897957,
+        "right": 0.8790357408794165,
+        "top": 0.5294618499074772
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1q": {
+      "box": {
+        "bottom": 0.5489862325688648,
+        "left": 0.6606029007507459,
+        "right": 0.7757969580897957,
+        "top": 0.5416495712264577
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1r": {
+      "box": {
+        "bottom": 0.5489862325688648,
+        "left": 0.7757969580897957,
+        "right": 0.8790357408794165,
+        "top": 0.5416495712264577
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1s": {
+      "box": {
+        "bottom": 0.6719014695223393,
+        "left": 0.1276631458173182,
+        "right": 0.8787135445093792,
+        "top": 0.5546387463471802
+      },
+      "page": 0,
+      "type": "table"
+    },
+    "0-1t": {
+      "box": {
+        "bottom": 0.6035356627117494,
+        "left": 0.1276631458173182,
+        "right": 0.1710242075705799,
+        "top": 0.5546387463471802
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1u": {
+      "box": {
+        "bottom": 0.5665176955637179,
+        "left": 0.15147078731854347,
+        "right": 0.1710242075705799,
+        "top": 0.5546387463471802
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1v": {
+      "box": {
+        "bottom": 0.591496904751935,
+        "left": 0.1710242075705799,
+        "right": 0.2755815734274898,
+        "top": 0.5546387463471802
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1w": {
+      "box": {
+        "bottom": 0.5665176955637179,
+        "left": 0.2566755507142311,
+        "right": 0.2755815734274898,
+        "top": 0.5546387463471802
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1x": {
+      "box": {
+        "bottom": 0.591496904751935,
+        "left": 0.2755815734274898,
+        "right": 0.35937920617116603,
+        "top": 0.5546387463471802
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1y": {
+      "box": {
+        "bottom": 0.6035356627117494,
+        "left": 0.3365291233782681,
+        "right": 0.3829139960867396,
+        "top": 0.5546387463471802
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1z": {
+      "box": {
+        "bottom": 0.6035356627117494,
+        "left": 0.35937920617116603,
+        "right": 0.5375387748082634,
+        "top": 0.5546387463471802
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1A": {
+      "box": {
+        "bottom": 0.6035356627117494,
+        "left": 0.3829139960867396,
+        "right": 0.5990101271875243,
+        "top": 0.5546387463471802
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1B": {
+      "box": {
+        "bottom": 0.6035356627117494,
+        "left": 0.5375387748082634,
+        "right": 0.660403719018527,
+        "top": 0.5546387463471802
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1C": {
+      "box": {
+        "bottom": 0.6035356627117494,
+        "left": 0.5990101271875243,
+        "right": 0.7752921519076601,
+        "top": 0.5546387463471802
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1D": {
+      "box": {
+        "bottom": 0.5665176955637179,
+        "left": 0.660403719018527,
+        "right": 0.7752921519076601,
+        "top": 0.5546387463471802
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1E": {
+      "box": {
+        "bottom": 0.5665176955637179,
+        "left": 0.7752921519076601,
+        "right": 0.8794881907205117,
+        "top": 0.5546387463471802
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1F": {
+      "box": {
+        "bottom": 0.6035356627117494,
+        "left": 0.15147078731854347,
+        "right": 0.19954490322524343,
+        "top": 0.5665176955637179
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1G": {
+      "box": {
+        "bottom": 0.5790008933475832,
+        "left": 0.2566755507142311,
+        "right": 0.2755815734274898,
+        "top": 0.5665176955637179
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1H": {
+      "box": {
+        "bottom": 0.5790008933475832,
+        "left": 0.660403719018527,
+        "right": 0.7752921519076601,
+        "top": 0.5665176955637179
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1I": {
+      "box": {
+        "bottom": 0.5790008933475832,
+        "left": 0.7752921519076601,
+        "right": 0.8794881907205117,
+        "top": 0.5665176955637179
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1J": {
+      "box": {
+        "bottom": 0.591496904751935,
+        "left": 0.1710242075705799,
+        "right": 0.19954490322524343,
+        "top": 0.5790008933475832
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1K": {
+      "box": {
+        "bottom": 0.591496904751935,
+        "left": 0.19954490322524343,
+        "right": 0.21859274333184198,
+        "top": 0.5790008933475832
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1L": {
+      "box": {
+        "bottom": 0.6035356627117494,
+        "left": 0.21859274333184198,
+        "right": 0.35937920617116603,
+        "top": 0.5790008933475832
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1M": {
+      "box": {
+        "bottom": 0.591496904751935,
+        "left": 0.660403719018527,
+        "right": 0.7752921519076601,
+        "top": 0.5790008933475832
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1N": {
+      "box": {
+        "bottom": 0.591496904751935,
+        "left": 0.7752921519076601,
+        "right": 0.8794881907205117,
+        "top": 0.5790008933475832
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1O": {
+      "box": {
+        "bottom": 0.6719014695223393,
+        "left": 0.1276631458173182,
+        "right": 0.1710242075705799,
+        "top": 0.591496904751935
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1P": {
+      "box": {
+        "bottom": 0.6719014695223393,
+        "left": 0.15147078731854347,
+        "right": 0.35937920617116603,
+        "top": 0.591496904751935
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1Q": {
+      "box": {
+        "bottom": 0.6719014695223393,
+        "left": 0.3365291233782681,
+        "right": 0.3829139960867396,
+        "top": 0.591496904751935
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1R": {
+      "box": {
+        "bottom": 0.6719014695223393,
+        "left": 0.35937920617116603,
+        "right": 0.5375387748082634,
+        "top": 0.591496904751935
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1S": {
+      "box": {
+        "bottom": 0.6719014695223393,
+        "left": 0.3829139960867396,
+        "right": 0.5990101271875243,
+        "top": 0.591496904751935
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1T": {
+      "box": {
+        "bottom": 0.6719014695223393,
+        "left": 0.5375387748082634,
+        "right": 0.660403719018527,
+        "top": 0.591496904751935
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1U": {
+      "box": {
+        "bottom": 0.6719014695223393,
+        "left": 0.5990101271875243,
+        "right": 0.7752921519076601,
+        "top": 0.591496904751935
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1V": {
+      "box": {
+        "bottom": 0.6035356627117494,
+        "left": 0.660403719018527,
+        "right": 0.7752921519076601,
+        "top": 0.591496904751935
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1W": {
+      "box": {
+        "bottom": 0.6035356627117494,
+        "left": 0.7752921519076601,
+        "right": 0.8794881907205117,
+        "top": 0.591496904751935
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1X": {
+      "box": {
+        "bottom": 0.6155701026019642,
+        "left": 0.660403719018527,
+        "right": 0.7752921519076601,
+        "top": 0.6035356627117494
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1Y": {
+      "box": {
+        "bottom": 0.6155701026019642,
+        "left": 0.7752921519076601,
+        "right": 0.8794881907205117,
+        "top": 0.6035356627117494
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-1Z": {
+      "box": {
+        "bottom": 0.6279006616464926,
+        "left": 0.660403719018527,
+        "right": 0.7752921519076601,
+        "top": 0.6155701026019642
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-20": {
+      "box": {
+        "bottom": 0.6279006616464926,
+        "left": 0.7752921519076601,
+        "right": 0.8794881907205117,
+        "top": 0.6155701026019642
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-21": {
+      "box": {
+        "bottom": 0.6406419594881498,
+        "left": 0.660403719018527,
+        "right": 0.7752921519076601,
+        "top": 0.6279006616464926
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-22": {
+      "box": {
+        "bottom": 0.6406419594881498,
+        "left": 0.7752921519076601,
+        "right": 0.8794881907205117,
+        "top": 0.6279006616464926
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-23": {
+      "box": {
+        "bottom": 0.6719014695223393,
+        "left": 0.1276631458173182,
+        "right": 0.15147078731854347,
+        "top": 0.6406419594881498
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-24": {
+      "box": {
+        "bottom": 0.6719014695223393,
+        "left": 0.15147078731854347,
+        "right": 0.35937920617116603,
+        "top": 0.6406419594881498
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-25": {
+      "box": {
+        "bottom": 0.6719014695223393,
+        "left": 0.3365291233782681,
+        "right": 0.35937920617116603,
+        "top": 0.6406419594881498
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-26": {
+      "box": {
+        "bottom": 0.6719014695223393,
+        "left": 0.35937920617116603,
+        "right": 0.3829139960867396,
+        "top": 0.6406419594881498
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-27": {
+      "box": {
+        "bottom": 0.6719014695223393,
+        "left": 0.3829139960867396,
+        "right": 0.5375387748082634,
+        "top": 0.6406419594881498
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-28": {
+      "box": {
+        "bottom": 0.6719014695223393,
+        "left": 0.5375387748082634,
+        "right": 0.5990101271875243,
+        "top": 0.6406419594881498
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-29": {
+      "box": {
+        "bottom": 0.6719014695223393,
+        "left": 0.5990101271875243,
+        "right": 0.660403719018527,
+        "top": 0.6406419594881498
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-2a": {
+      "box": {
+        "bottom": 0.6719014695223393,
+        "left": 0.660403719018527,
+        "right": 0.8794881907205117,
+        "top": 0.6406419594881498
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "d5b5893b-a202-4862-922a-b2f8dca32612": {
+      "box": {
+        "bottom": 0.7655287981033325,
+        "left": 0.12222912907600403,
+        "right": 0.8844102621078491,
+        "top": 0.669975757598877
+      },
+      "page": 0,
+      "type": "chunkText"
+    },
+    "6b6fdd5d-35e3-498f-bc99-2f83d9cd7986": {
+      "box": {
+        "bottom": 0.8634737730026245,
+        "left": 0.12179547548294067,
+        "right": 0.8844353556632996,
+        "top": 0.7618032693862915
+      },
+      "page": 0,
+      "type": "chunkTable"
+    },
+    "0-2b": {
+      "box": {
+        "bottom": 0.8555856263976835,
+        "left": 0.12771270220575787,
+        "right": 0.8783307695347702,
+        "top": 0.7637301305653135
+      },
+      "page": 0,
+      "type": "table"
+    },
+    "0-2c": {
+      "box": {
+        "bottom": 0.7755663010469291,
+        "left": 0.12771270220575787,
+        "right": 0.5025858202025866,
+        "top": 0.7637301305653135
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-2d": {
+      "box": {
+        "bottom": 0.7755663010469291,
+        "left": 0.5025858202025866,
+        "right": 0.8784935051621261,
+        "top": 0.7637301305653135
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-2e": {
+      "box": {
+        "bottom": 0.8555856263976835,
+        "left": 0.12771270220575787,
+        "right": 0.8784935051621261,
+        "top": 0.7755663010469291
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-2f": {
+      "box": {
+        "bottom": 0.8251255368928696,
+        "left": 0.5025858202025866,
+        "right": 0.8784935051621261,
+        "top": 0.7755663010469291
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "0-2g": {
+      "box": {
+        "bottom": 0.8555856263976835,
+        "left": 0.5025858202025866,
+        "right": 0.8784935051621261,
+        "top": 0.8251255368928696
+      },
+      "page": 0,
+      "type": "tableCell"
+    },
+    "4a3e9b24-de6c-4a20-b39a-5288ec18c8d0": {
+      "box": {
+        "bottom": 0.8684478402137756,
+        "left": 0.567537784576416,
+        "right": 0.874550461769104,
+        "top": 0.8550234436988831
+      },
+      "page": 0,
+      "type": "chunkMarginalia"
+    },
+    "d15527fb-5fd1-4048-9b2a-2958deb96f58": {
+      "box": {
+        "bottom": 0.884700357913971,
+        "left": 0.1277715116739273,
+        "right": 0.24633540213108063,
+        "top": 0.8697289824485779
+      },
+      "page": 0,
+      "type": "chunkMarginalia"
+    },
+    "5f0aa8be-c807-4ab5-9df4-b8b5fddcce83": {
+      "box": {
+        "bottom": 0.883139431476593,
+        "left": 0.3455287516117096,
+        "right": 0.6615866422653198,
+        "top": 0.8690552115440369
+      },
+      "page": 0,
+      "type": "chunkMarginalia"
+    }
+  }
+}
+
+==================================================
+
+Policy Exp: <tr><td id="0-y">INSR LTR</td><td id="0-z" colspan="6">TYPE OF INSURANCE</td><td id="0-A">ADDL INSR</td><td id="0-B">SUBR WVD</td><td id="0-C">POLICY NUMBER</td><td id="0-D">POLICY EFF (MM/DD/YYYY)</td><td id="0-E">POLICY EXP (MM/DD/YYYY)</td><td id="0-F" colspan="2">LIMITS</td></tr>

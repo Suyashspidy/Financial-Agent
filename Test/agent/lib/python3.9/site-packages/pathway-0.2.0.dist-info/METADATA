@@ -1,0 +1,604 @@
+Metadata-Version: 2.1
+Name: pathway
+Version: 0.2.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Dist: aiohttp >= 3.8.4
+Requires-Dist: click >= 8.1
+Requires-Dist: numpy >= 1.21
+Requires-Dist: pandas >= 1.3
+Requires-Dist: scikit-learn >= 1.0
+Requires-Dist: sqlglot == 10.6.1
+Requires-Dist: numba >= 0.56; python_version < '3.11'
+Requires-Dist: pyarrow >= 10.0.0
+Requires-Dist: requests >= 2.31.0
+Requires-Dist: python-sat >= 0.1.8.dev
+Requires-Dist: beartype >= 0.14.0
+Requires-Dist: rich >= 12.6.0
+Requires-Dist: diskcache >= 5.2.1
+License-File: LICENSE.txt
+License-File: LICENSE_abomonation-LICENSE-MIT
+License-File: LICENSE_addr2line-LICENSE-APACHE
+License-File: LICENSE_addr2line-LICENSE-MIT
+License-File: LICENSE_adler-LICENSE-0BSD
+License-File: LICENSE_adler-LICENSE-APACHE
+License-File: LICENSE_adler-LICENSE-MIT
+License-File: LICENSE_ahash-LICENSE-APACHE
+License-File: LICENSE_ahash-LICENSE-MIT
+License-File: LICENSE_aho-corasick-LICENSE-MIT
+License-File: LICENSE_arc-swap-LICENSE-APACHE
+License-File: LICENSE_arc-swap-LICENSE-MIT
+License-File: LICENSE_arcstr-LICENSE-APACHE
+License-File: LICENSE_arcstr-LICENSE-MIT
+License-File: LICENSE_arcstr-LICENSE-ZLIB
+License-File: LICENSE_assert_matches-LICENSE-APACHE
+License-File: LICENSE_assert_matches-LICENSE-MIT
+License-File: LICENSE_async-compression-LICENSE-APACHE
+License-File: LICENSE_async-compression-LICENSE-MIT
+License-File: LICENSE_async-trait-LICENSE-APACHE
+License-File: LICENSE_async-trait-LICENSE-MIT
+License-File: LICENSE_attohttpc-LICENSE
+License-File: LICENSE_autocfg-LICENSE-APACHE
+License-File: LICENSE_autocfg-LICENSE-MIT
+License-File: LICENSE_aws-creds-LICENSE-MIT
+License-File: LICENSE_aws-region-LICENSE-MIT
+License-File: LICENSE_backtrace-LICENSE-APACHE
+License-File: LICENSE_backtrace-LICENSE-MIT
+License-File: LICENSE_base32-LICENSE-APACHE
+License-File: LICENSE_base32-LICENSE-MIT
+License-File: LICENSE_base64-LICENSE-APACHE
+License-File: LICENSE_base64-LICENSE-MIT
+License-File: LICENSE_bincode-LICENSE-MIT
+License-File: LICENSE_bitflags-LICENSE-APACHE
+License-File: LICENSE_bitflags-LICENSE-MIT
+License-File: LICENSE_byteorder-LICENSE-MIT
+License-File: LICENSE_bytes-LICENSE-MIT
+License-File: LICENSE_cc-LICENSE-APACHE
+License-File: LICENSE_cc-LICENSE-MIT
+License-File: LICENSE_cfg-if-LICENSE-APACHE
+License-File: LICENSE_cfg-if-LICENSE-MIT
+License-File: LICENSE_chrono-LICENSE-APACHE
+License-File: LICENSE_chrono-LICENSE-MIT
+License-File: LICENSE_chrono-tz-LICENSE-APACHE
+License-File: LICENSE_chrono-tz-LICENSE-MIT
+License-File: LICENSE_cmake-LICENSE-APACHE
+License-File: LICENSE_cmake-LICENSE-MIT
+License-File: LICENSE_color-eyre-LICENSE-APACHE
+License-File: LICENSE_color-eyre-LICENSE-MIT
+License-File: LICENSE_crc32fast-LICENSE-APACHE
+License-File: LICENSE_crc32fast-LICENSE-MIT
+License-File: LICENSE_crossbeam-channel-LICENSE-APACHE
+License-File: LICENSE_crossbeam-channel-LICENSE-MIT
+License-File: LICENSE_crossbeam-utils-LICENSE-APACHE
+License-File: LICENSE_crossbeam-utils-LICENSE-MIT
+License-File: LICENSE_csv-LICENSE-MIT
+License-File: LICENSE_csv-core-LICENSE-MIT
+License-File: LICENSE_darling-LICENSE-MIT
+License-File: LICENSE_darling_core-LICENSE-MIT
+License-File: LICENSE_darling_macro-LICENSE-MIT
+License-File: LICENSE_derivative-LICENSE-APACHE
+License-File: LICENSE_derivative-LICENSE-MIT
+License-File: LICENSE_differential-dataflow-LICENSE-MIT
+License-File: LICENSE_dirs-LICENSE-APACHE
+License-File: LICENSE_dirs-LICENSE-MIT
+License-File: LICENSE_dirs-sys-LICENSE-APACHE
+License-File: LICENSE_dirs-sys-LICENSE-MIT
+License-File: LICENSE_dlv-list-LICENSE-MIT
+License-File: LICENSE_dtoa-LICENSE-APACHE
+License-File: LICENSE_dtoa-LICENSE-MIT
+License-File: LICENSE_dyn-clone-LICENSE-APACHE
+License-File: LICENSE_dyn-clone-LICENSE-MIT
+License-File: LICENSE_either-LICENSE-APACHE
+License-File: LICENSE_either-LICENSE-MIT
+License-File: LICENSE_elasticsearch-LICENSE-APACHE
+License-File: LICENSE_equivalent-LICENSE-APACHE
+License-File: LICENSE_equivalent-LICENSE-MIT
+License-File: LICENSE_eyre-LICENSE-APACHE
+License-File: LICENSE_eyre-LICENSE-MIT
+License-File: LICENSE_fallible-iterator-LICENSE-APACHE
+License-File: LICENSE_fallible-iterator-LICENSE-MIT
+License-File: LICENSE_fastrand-LICENSE-APACHE
+License-File: LICENSE_fastrand-LICENSE-MIT
+License-File: LICENSE_flate2-LICENSE-APACHE
+License-File: LICENSE_flate2-LICENSE-MIT
+License-File: LICENSE_fnv-LICENSE-APACHE
+License-File: LICENSE_fnv-LICENSE-MIT
+License-File: LICENSE_foreign-types-LICENSE-APACHE
+License-File: LICENSE_foreign-types-LICENSE-MIT
+License-File: LICENSE_foreign-types-shared-LICENSE-APACHE
+License-File: LICENSE_foreign-types-shared-LICENSE-MIT
+License-File: LICENSE_form_urlencoded-LICENSE-APACHE
+License-File: LICENSE_form_urlencoded-LICENSE-MIT
+License-File: LICENSE_futures-LICENSE-APACHE
+License-File: LICENSE_futures-LICENSE-MIT
+License-File: LICENSE_futures-channel-LICENSE-APACHE
+License-File: LICENSE_futures-channel-LICENSE-MIT
+License-File: LICENSE_futures-core-LICENSE-APACHE
+License-File: LICENSE_futures-core-LICENSE-MIT
+License-File: LICENSE_futures-executor-LICENSE-APACHE
+License-File: LICENSE_futures-executor-LICENSE-MIT
+License-File: LICENSE_futures-io-LICENSE-APACHE
+License-File: LICENSE_futures-io-LICENSE-MIT
+License-File: LICENSE_futures-macro-LICENSE-APACHE
+License-File: LICENSE_futures-macro-LICENSE-MIT
+License-File: LICENSE_futures-sink-LICENSE-APACHE
+License-File: LICENSE_futures-sink-LICENSE-MIT
+License-File: LICENSE_futures-task-LICENSE-APACHE
+License-File: LICENSE_futures-task-LICENSE-MIT
+License-File: LICENSE_futures-util-LICENSE-APACHE
+License-File: LICENSE_futures-util-LICENSE-MIT
+License-File: LICENSE_generic-array-LICENSE-MIT
+License-File: LICENSE_getopts-LICENSE-APACHE
+License-File: LICENSE_getopts-LICENSE-MIT
+License-File: LICENSE_getrandom-LICENSE-APACHE
+License-File: LICENSE_getrandom-LICENSE-MIT
+License-File: LICENSE_gimli-LICENSE-APACHE
+License-File: LICENSE_gimli-LICENSE-MIT
+License-File: LICENSE_h2-LICENSE-MIT
+License-File: LICENSE_hashbrown-LICENSE-APACHE
+License-File: LICENSE_hashbrown-LICENSE-MIT
+License-File: LICENSE_hex-LICENSE-APACHE
+License-File: LICENSE_hex-LICENSE-MIT
+License-File: LICENSE_http-LICENSE-APACHE
+License-File: LICENSE_http-LICENSE-MIT
+License-File: LICENSE_http-body-LICENSE-MIT
+License-File: LICENSE_httparse-LICENSE-APACHE
+License-File: LICENSE_httparse-LICENSE-MIT
+License-File: LICENSE_httpdate-LICENSE-APACHE
+License-File: LICENSE_httpdate-LICENSE-MIT
+License-File: LICENSE_hyper-LICENSE-MIT
+License-File: LICENSE_hyper-tls-LICENSE-APACHE
+License-File: LICENSE_hyper-tls-LICENSE-MIT
+License-File: LICENSE_iana-time-zone-LICENSE-APACHE
+License-File: LICENSE_iana-time-zone-LICENSE-MIT
+License-File: LICENSE_id-arena-LICENSE-APACHE
+License-File: LICENSE_id-arena-LICENSE-MIT
+License-File: LICENSE_ident_case-LICENSE-APACHE
+License-File: LICENSE_ident_case-LICENSE-MIT
+License-File: LICENSE_idna-LICENSE-APACHE
+License-File: LICENSE_idna-LICENSE-MIT
+License-File: LICENSE_indexmap-LICENSE-APACHE
+License-File: LICENSE_indexmap-LICENSE-MIT
+License-File: LICENSE_indoc-LICENSE-APACHE
+License-File: LICENSE_indoc-LICENSE-MIT
+License-File: LICENSE_inotify-LICENSE-ISC
+License-File: LICENSE_inotify-sys-LICENSE-ISC
+License-File: LICENSE_io-lifetimes-LICENSE-APACHE
+License-File: LICENSE_io-lifetimes-LICENSE-MIT
+License-File: LICENSE_ipnet-LICENSE-APACHE
+License-File: LICENSE_ipnet-LICENSE-MIT
+License-File: LICENSE_itertools-LICENSE-APACHE
+License-File: LICENSE_itertools-LICENSE-MIT
+License-File: LICENSE_itoa-LICENSE-APACHE
+License-File: LICENSE_itoa-LICENSE-MIT
+License-File: LICENSE_jemalloc-sys-LICENSE-APACHE
+License-File: LICENSE_jemalloc-sys-LICENSE-MIT
+License-File: LICENSE_jemallocator-LICENSE-APACHE
+License-File: LICENSE_jemallocator-LICENSE-MIT
+License-File: LICENSE_lazy_static-LICENSE-APACHE
+License-File: LICENSE_lazy_static-LICENSE-MIT
+License-File: LICENSE_libc-LICENSE-APACHE
+License-File: LICENSE_libc-LICENSE-MIT
+License-File: LICENSE_libz-sys-LICENSE-APACHE
+License-File: LICENSE_libz-sys-LICENSE-MIT
+License-File: LICENSE_linux-raw-sys-LICENSE-APACHE
+License-File: LICENSE_linux-raw-sys-LICENSE-MIT
+License-File: LICENSE_lock_api-LICENSE-APACHE
+License-File: LICENSE_lock_api-LICENSE-MIT
+License-File: LICENSE_log-LICENSE-APACHE
+License-File: LICENSE_log-LICENSE-MIT
+License-File: LICENSE_matrixmultiply-LICENSE-APACHE
+License-File: LICENSE_matrixmultiply-LICENSE-MIT
+License-File: LICENSE_maybe-async-LICENSE-MIT
+License-File: LICENSE_md5-LICENSE-APACHE
+License-File: LICENSE_md5-LICENSE-MIT
+License-File: LICENSE_memchr-LICENSE-MIT
+License-File: LICENSE_memoffset-LICENSE-MIT
+License-File: LICENSE_mime-LICENSE-APACHE
+License-File: LICENSE_mime-LICENSE-MIT
+License-File: LICENSE_miniz_oxide-LICENSE-APACHE
+License-File: LICENSE_miniz_oxide-LICENSE-MIT
+License-File: LICENSE_miniz_oxide-LICENSE-ZLIB
+License-File: LICENSE_mio-LICENSE-MIT
+License-File: LICENSE_native-tls-LICENSE-APACHE
+License-File: LICENSE_native-tls-LICENSE-MIT
+License-File: LICENSE_ndarray-LICENSE-APACHE
+License-File: LICENSE_ndarray-LICENSE-MIT
+License-File: LICENSE_nix-LICENSE-MIT
+License-File: LICENSE_num-complex-LICENSE-APACHE
+License-File: LICENSE_num-complex-LICENSE-MIT
+License-File: LICENSE_num-integer-LICENSE-APACHE
+License-File: LICENSE_num-integer-LICENSE-MIT
+License-File: LICENSE_num-traits-LICENSE-APACHE
+License-File: LICENSE_num-traits-LICENSE-MIT
+License-File: LICENSE_num_enum-LICENSE-APACHE
+License-File: LICENSE_num_enum-LICENSE-BSD
+License-File: LICENSE_num_enum-LICENSE-MIT
+License-File: LICENSE_num_enum_derive-LICENSE-APACHE
+License-File: LICENSE_num_enum_derive-LICENSE-BSD
+License-File: LICENSE_num_enum_derive-LICENSE-MIT
+License-File: LICENSE_numpy-LICENSE-BSD
+License-File: LICENSE_object-LICENSE-APACHE
+License-File: LICENSE_object-LICENSE-MIT
+License-File: LICENSE_once_cell-LICENSE-APACHE
+License-File: LICENSE_once_cell-LICENSE-MIT
+License-File: LICENSE_openssl-probe-LICENSE-APACHE
+License-File: LICENSE_openssl-probe-LICENSE-MIT
+License-File: LICENSE_openssl-src-LICENSE-APACHE
+License-File: LICENSE_openssl-src-LICENSE-MIT
+License-File: LICENSE_ordered-float-LICENSE-MIT
+License-File: LICENSE_ordered-multimap-LICENSE-MIT
+License-File: LICENSE_owo-colors-LICENSE-MIT
+License-File: LICENSE_parking_lot-LICENSE-APACHE
+License-File: LICENSE_parking_lot-LICENSE-MIT
+License-File: LICENSE_parking_lot_core-LICENSE-APACHE
+License-File: LICENSE_parking_lot_core-LICENSE-MIT
+License-File: LICENSE_parse-zoneinfo-LICENSE-MIT
+License-File: LICENSE_percent-encoding-LICENSE-APACHE
+License-File: LICENSE_percent-encoding-LICENSE-MIT
+License-File: LICENSE_phf-LICENSE-MIT
+License-File: LICENSE_phf_codegen-LICENSE-MIT
+License-File: LICENSE_phf_generator-LICENSE-MIT
+License-File: LICENSE_phf_shared-LICENSE-MIT
+License-File: LICENSE_pin-project-lite-LICENSE-APACHE
+License-File: LICENSE_pin-project-lite-LICENSE-MIT
+License-File: LICENSE_pin-utils-LICENSE-APACHE
+License-File: LICENSE_pin-utils-LICENSE-MIT
+License-File: LICENSE_pkg-config-LICENSE-APACHE
+License-File: LICENSE_pkg-config-LICENSE-MIT
+License-File: LICENSE_postgres-LICENSE-APACHE
+License-File: LICENSE_postgres-LICENSE-MIT
+License-File: LICENSE_postgres-protocol-LICENSE-APACHE
+License-File: LICENSE_postgres-protocol-LICENSE-MIT
+License-File: LICENSE_postgres-types-LICENSE-APACHE
+License-File: LICENSE_postgres-types-LICENSE-MIT
+License-File: LICENSE_ppv-lite86-LICENSE-APACHE
+License-File: LICENSE_ppv-lite86-LICENSE-MIT
+License-File: LICENSE_proc-macro-crate-LICENSE-APACHE
+License-File: LICENSE_proc-macro-crate-LICENSE-MIT
+License-File: LICENSE_proc-macro2-LICENSE-APACHE
+License-File: LICENSE_proc-macro2-LICENSE-MIT
+License-File: LICENSE_prometheus-client-LICENSE-APACHE
+License-File: LICENSE_prometheus-client-LICENSE-MIT
+License-File: LICENSE_prometheus-client-derive-encode-LICENSE-APACHE
+License-File: LICENSE_prometheus-client-derive-encode-LICENSE-MIT
+License-File: LICENSE_pyo3-LICENSE-APACHE
+License-File: LICENSE_pyo3-asyncio-LICENSE-APACHE
+License-File: LICENSE_pyo3-build-config-LICENSE-APACHE
+License-File: LICENSE_pyo3-ffi-LICENSE-APACHE
+License-File: LICENSE_pyo3-log-LICENSE-APACHE
+License-File: LICENSE_pyo3-log-LICENSE-MIT
+License-File: LICENSE_pyo3-macros-LICENSE-APACHE
+License-File: LICENSE_pyo3-macros-backend-LICENSE-APACHE
+License-File: LICENSE_quick-xml-LICENSE-MIT
+License-File: LICENSE_quote-LICENSE-APACHE
+License-File: LICENSE_quote-LICENSE-MIT
+License-File: LICENSE_rand-LICENSE-APACHE
+License-File: LICENSE_rand-LICENSE-MIT
+License-File: LICENSE_rand_chacha-LICENSE-APACHE
+License-File: LICENSE_rand_chacha-LICENSE-MIT
+License-File: LICENSE_rand_core-LICENSE-APACHE
+License-File: LICENSE_rand_core-LICENSE-MIT
+License-File: LICENSE_rawpointer-LICENSE-APACHE
+License-File: LICENSE_rawpointer-LICENSE-MIT
+License-File: LICENSE_rdkafka-LICENSE-MIT
+License-File: LICENSE_rdkafka-sys-LICENSE-MIT
+License-File: LICENSE_regex-LICENSE-APACHE
+License-File: LICENSE_regex-LICENSE-MIT
+License-File: LICENSE_regex-automata-LICENSE-APACHE
+License-File: LICENSE_regex-automata-LICENSE-MIT
+License-File: LICENSE_regex-syntax-LICENSE-APACHE
+License-File: LICENSE_regex-syntax-LICENSE-MIT
+License-File: LICENSE_reqwest-LICENSE-APACHE
+License-File: LICENSE_reqwest-LICENSE-MIT
+License-File: LICENSE_rust-ini-LICENSE-MIT
+License-File: LICENSE_rust-s3-LICENSE-MIT
+License-File: LICENSE_rustc-demangle-LICENSE-APACHE
+License-File: LICENSE_rustc-demangle-LICENSE-MIT
+License-File: LICENSE_rustc-hash-LICENSE-APACHE
+License-File: LICENSE_rustc-hash-LICENSE-MIT
+License-File: LICENSE_rustc_version-LICENSE-APACHE
+License-File: LICENSE_rustc_version-LICENSE-MIT
+License-File: LICENSE_rustix-LICENSE-APACHE
+License-File: LICENSE_rustix-LICENSE-MIT
+License-File: LICENSE_ryu-LICENSE-APACHE
+License-File: LICENSE_ryu-LICENSE-BOOST
+License-File: LICENSE_scopeguard-LICENSE-APACHE
+License-File: LICENSE_scopeguard-LICENSE-MIT
+License-File: LICENSE_semver-LICENSE-APACHE
+License-File: LICENSE_semver-LICENSE-MIT
+License-File: LICENSE_semver-parser-LICENSE-APACHE
+License-File: LICENSE_semver-parser-LICENSE-MIT
+License-File: LICENSE_send_wrapper-LICENSE-APACHE
+License-File: LICENSE_send_wrapper-LICENSE-MIT
+License-File: LICENSE_serde-LICENSE-APACHE
+License-File: LICENSE_serde-LICENSE-MIT
+License-File: LICENSE_serde_derive-LICENSE-APACHE
+License-File: LICENSE_serde_derive-LICENSE-MIT
+License-File: LICENSE_serde_json-LICENSE-APACHE
+License-File: LICENSE_serde_json-LICENSE-MIT
+License-File: LICENSE_serde_urlencoded-LICENSE-APACHE
+License-File: LICENSE_serde_urlencoded-LICENSE-MIT
+License-File: LICENSE_serde_with-LICENSE-APACHE
+License-File: LICENSE_serde_with-LICENSE-MIT
+License-File: LICENSE_serde_with_macros-LICENSE-APACHE
+License-File: LICENSE_serde_with_macros-LICENSE-MIT
+License-File: LICENSE_slab-LICENSE-MIT
+License-File: LICENSE_smallvec-LICENSE-APACHE
+License-File: LICENSE_smallvec-LICENSE-MIT
+License-File: LICENSE_socket2-LICENSE-APACHE
+License-File: LICENSE_socket2-LICENSE-MIT
+License-File: LICENSE_static_assertions-LICENSE-APACHE
+License-File: LICENSE_static_assertions-LICENSE-MIT
+License-File: LICENSE_stringprep-LICENSE-APACHE
+License-File: LICENSE_stringprep-LICENSE-MIT
+License-File: LICENSE_strsim-LICENSE-MIT
+License-File: LICENSE_subtle-LICENSE-BSD
+License-File: LICENSE_syn-LICENSE-APACHE
+License-File: LICENSE_syn-LICENSE-MIT
+License-File: LICENSE_synstructure-LICENSE-MIT
+License-File: LICENSE_target-lexicon-LICENSE-APACHE
+License-File: LICENSE_tempfile-LICENSE-APACHE
+License-File: LICENSE_tempfile-LICENSE-MIT
+License-File: LICENSE_thiserror-LICENSE-APACHE
+License-File: LICENSE_thiserror-LICENSE-MIT
+License-File: LICENSE_thiserror-impl-LICENSE-APACHE
+License-File: LICENSE_thiserror-impl-LICENSE-MIT
+License-File: LICENSE_time-LICENSE-APACHE
+License-File: LICENSE_time-LICENSE-MIT
+License-File: LICENSE_time-core-LICENSE-APACHE
+License-File: LICENSE_time-core-LICENSE-MIT
+License-File: LICENSE_time-macros-LICENSE-APACHE
+License-File: LICENSE_time-macros-LICENSE-MIT
+License-File: LICENSE_timely-LICENSE-MIT
+License-File: LICENSE_timely_bytes-LICENSE-MIT
+License-File: LICENSE_timely_communication-LICENSE-MIT
+License-File: LICENSE_timely_logging-LICENSE-MIT
+License-File: LICENSE_tinyvec-LICENSE-APACHE
+License-File: LICENSE_tinyvec-LICENSE-MIT
+License-File: LICENSE_tinyvec-LICENSE-ZLIB
+License-File: LICENSE_tinyvec_macros-LICENSE-APACHE
+License-File: LICENSE_tinyvec_macros-LICENSE-MIT
+License-File: LICENSE_tinyvec_macros-LICENSE-ZLIB
+License-File: LICENSE_tokio-LICENSE-MIT
+License-File: LICENSE_tokio-native-tls-LICENSE-MIT
+License-File: LICENSE_tokio-postgres-LICENSE-APACHE
+License-File: LICENSE_tokio-postgres-LICENSE-MIT
+License-File: LICENSE_tokio-util-LICENSE-MIT
+License-File: LICENSE_tower-service-LICENSE-MIT
+License-File: LICENSE_tracing-LICENSE-MIT
+License-File: LICENSE_tracing-core-LICENSE-MIT
+License-File: LICENSE_try-lock-LICENSE-MIT
+License-File: LICENSE_typed-arena-LICENSE-MIT
+License-File: LICENSE_typenum-LICENSE-APACHE
+License-File: LICENSE_typenum-LICENSE-MIT
+License-File: LICENSE_unicode-bidi-LICENSE-APACHE
+License-File: LICENSE_unicode-bidi-LICENSE-MIT
+License-File: LICENSE_unicode-ident-LICENSE-APACHE
+License-File: LICENSE_unicode-normalization-LICENSE-APACHE
+License-File: LICENSE_unicode-normalization-LICENSE-MIT
+License-File: LICENSE_unicode-width-LICENSE-APACHE
+License-File: LICENSE_unicode-width-LICENSE-MIT
+License-File: LICENSE_unicode-xid-LICENSE-APACHE
+License-File: LICENSE_unicode-xid-LICENSE-MIT
+License-File: LICENSE_unindent-LICENSE-APACHE
+License-File: LICENSE_unindent-LICENSE-MIT
+License-File: LICENSE_url-LICENSE-APACHE
+License-File: LICENSE_url-LICENSE-MIT
+License-File: LICENSE_version_check-LICENSE-APACHE
+License-File: LICENSE_version_check-LICENSE-MIT
+License-File: LICENSE_void-LICENSE-MIT
+License-File: LICENSE_want-LICENSE-MIT
+License-File: LICENSE_winnow-LICENSE-MIT
+License-File: LICENSE_xxhash-rust-LICENSE-BOOST
+Summary: Pathway is a data processing framework which takes care of streaming data updates for you.
+License: BUSL-1.1
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Documentation, https://pathway.com/developers/
+Project-URL: Homepage, https://pathway.com/
+Project-URL: Troubleshooting, https://pathway.com/troubleshooting/
+
+<div align="center">
+  <img src="https://pathway.com/logo-light.svg" /><br /><br />
+</div>
+<p align="center">
+        <img src="https://img.shields.io/badge/OS-Linux-green" alt="Linux"/>
+        <img src="https://img.shields.io/badge/OS-macOS-green" alt="macOS"/>
+    <a href="LICENSE.txt">
+        <img src="https://img.shields.io/badge/license-BSL-green" alt="License: BSL"/></a>
+      <br>
+    <a href="https://discord.gg/pathway">
+        <img src="https://img.shields.io/discord/1042405378304004156?logo=discord"
+            alt="chat on Discord"></a>
+    <a href="https://twitter.com/intent/follow?screen_name=pathway_com">
+        <img src="https://img.shields.io/twitter/follow/pathway_com?style=social&logo=twitter"
+            alt="follow on Twitter"></a>
+  <a href="https://linkedin.com/company/pathway">
+        <img src="https://img.shields.io/badge/pathway-0077B5?style=social&logo=linkedin" alt="follow on LinkedIn"></a>
+
+  
+</p>
+
+# Pathway
+
+[Pathway](https://pathway.com) is an open framework for high-throughput and low-latency real-time data processing. It is used to create Python code which seamlessly combines batch processing, streaming, and real-time API's for LLM apps. Pathway's distributed runtime (🦀-🐍) provides fresh results of your data pipelines whenever new inputs and requests are received.
+
+Pathway provides a high-level programming interface in Python for defining data transformations, aggregations, and other operations on data streams.
+With Pathway, you can effortlessly design and deploy sophisticated data workflows that efficiently handle high volumes of data in real time.
+
+Pathway is interoperable with various data sources and sinks such as Kafka, CSV files, SQL/noSQL databases, and REST API's, allowing you to connect and process data from different storage systems.
+
+Typical use-cases of Pathway include realtime data processing, ETL (Extract, Transform, Load) pipelines, data analytics, monitoring, anomaly detection, and recommendation. Pathway can also independently provide the backbone of a light LLMops stack for [real-time LLM applications](https://github.com/pathwaycom/llm-app).
+
+In Pathway, data is represented in the form of Tables. Live data streams are also treated as Tables. The library provides a rich set of operations like filtering, joining, grouping, and windowing.
+
+For any questions, you will find the community and team behind the project [on Discord](https://discord.com/invite/pathway).
+
+## Installation
+
+Pathway requires Python 3.9 or above.
+
+You can install the current release of Pathway using `pip`:
+
+```
+$ pip install -U pathway
+```
+
+⚠️ Pathway is available on MacOS and Linux. Users of other systems should run Pathway on a Virtual Machine.
+
+## Getting started
+
+To use Pathway, you only need to import it:
+
+```python
+import pathway as pw
+```
+
+Now, you can easily create your processing pipeline, and let Pathway handle the updates. Once your pipeline is created, you can launch the computation on streaming data with a one-line command:
+
+```python
+pw.run()
+```
+
+You can then run your Pathway project (say, `main.py`) just like a normal Python script: `$ python main.py`. Alternatively, use the pathway'ish version:
+
+```
+$ pathway spawn python main.py
+```
+
+Pathway natively supports multithreading.
+To launch your application with 3 threads, you can do as follows:
+```
+$ pathway spawn --threads 3 python main.py
+```
+
+To jumpstart a Pathway project, you can use our [cookiecutter template](https://github.com/pathwaycom/cookiecutter-pathway).
+
+
+### Example
+
+```python
+import pathway as pw
+
+# Using the `demo` module to create a data stream
+table = pw.demo.range_stream(nb_rows=50)
+# Storing the stream into a CSV file
+pw.io.csv.write(table, "output_table.csv")
+
+# Summing all the values in a new table
+sum_table = table.reduce(sum=pw.reducers.sum(pw.this.value))
+# Storing the sum (which is a stream) in another CSV file
+pw.io.csv.write(sum_table, "sum_table.csv")
+
+# Now that the pipeline is built, the computation is started
+pw.run()
+```
+
+Run this example [in Google Colab](https://colab.research.google.com/drive/1kLx5-vKKg0IeQ88ydS-ehtrxSujEZrXK?usp=sharing)!
+
+## Monitoring Pathway
+
+Pathway comes with a monitoring dashboard that allows you to keep track of the number of messages sent by each connector and the latency of the system. The dashboard also includes log messages. 
+
+This dashboard is enabled by default; you can disable it by passing `monitoring_level = pathway.MonitoringLevel.NONE` to `pathway.run()`.
+
+<img src="https://d14l3brkh44201.cloudfront.net/pathway-dashboard.png" width="1326" alt="Pathway dashboard"/>
+
+In addition to Pathway's built-in dashboard, you can [use Prometheus](https://pathway.com/developers/tutorials/prometheus-monitoring) to monitor your Pathway application.
+
+## Resources
+
+See also: **[Pathway Developer Resources](https://pathway.com/developers/)** webpage (including API Docs).
+
+### Videos about Pathway
+▶️ Building an LLM Application without a vector database (coming soon) - by [Jan Chorowski](https://scholar.google.com/citations?user=Yc94070AAAAJ)
+
+[▶️ Linear regression on a Kafka Stream](https://vimeo.com/805069039) - by [Richard Pelgrim](https://twitter.com/richardpelgrim) (7min 53s)
+
+[▶️ Introduction to reactive data processing](https://pathway.com/developers/user-guide/introduction/welcome) - by [Adrian Kosowski](https://scholar.google.com/citations?user=om8De_0AAAAJ) (27min 54s)
+
+### Guides 
+- [Core concepts of Pathway](https://pathway.com/developers/user-guide/introduction/key-concepts/)
+- [Basic operations](https://pathway.com/developers/user-guide/introduction/survival-guide/)
+- [Joins](https://pathway.com/developers/user-guide/table-operations/join-manual/)
+- [Groupby](https://pathway.com/developers/user-guide/table-operations/groupby-reduce-manual/)
+- [Windowby](https://pathway.com/developers/user-guide/table-operations/windowby-reduce-manual/)
+- [Transformer classes](https://pathway.com/developers/user-guide/transformer-classes/transformer-intro/)
+- [Input and output connectors](https://pathway.com/developers/user-guide/input-and-output-streams/connectors/)
+- [Coming from pandas](https://pathway.com/developers/user-guide/migrate-from-pandas/)
+- [API docs](https://pathway.com/developers/api-docs/pathway)
+- [Troubleshooting](https://pathway.com/developers/user-guide/introduction/troubleshooting/)
+
+### Tutorials
+- [Linear regression on a Kafka Stream](https://pathway.com/developers/tutorials/linear_regression_with_kafka/) ([video](https://vimeo.com/805069039)) 
+- Joins:
+  - [Interval joins](https://pathway.com/developers/tutorials/fleet_eta_interval_join/)
+  - [Window joins](https://pathway.com/developers/tutorials/clickstream-window-join/)
+  - [ASOF joins](https://pathway.com/developers/tutorials/finance_ts_asof_join/)
+- Connectors:
+  - [CSV connectors](https://pathway.com/developers/tutorials/connectors/csv_connectors/)
+  - [Database connectors](https://pathway.com/developers/tutorials/connectors/database-connectors/)
+  - [Kafka connectors](https://pathway.com/developers/tutorials/connectors/kafka_connectors/)
+  - [Custom Python connector](https://pathway.com/developers/tutorials/connectors/custom-python-connectors/)
+  - [Switching from Kafka to Redpanda](https://pathway.com/developers/tutorials/connectors/switching-to-redpanda/)
+- [Monitoring Pathway with Prometheus](https://pathway.com/developers/tutorials/prometheus-monitoring/)
+- [Time between events in a multi-topic event stream](https://pathway.com/developers/tutorials/event_stream_processing_time_between_occurrences/)
+
+### Showcases
+- [Realtime Twitter Analysis App](https://pathway.com/developers/showcases/twitter/)
+- [Realtime classification with Nearest Neighbors](https://pathway.com/developers/showcases/lsh/lsh_chapter1/)
+- [Realtime Fuzzy joins](https://pathway.com/developers/showcases/fuzzy_join/fuzzy_join_chapter1/)
+
+### External and community content
+- [Real-time linear regression (Data Engineering Weekly)](https://pathway.com/developers/tutorials/unlocking-data-stream-processing-1/)
+- [Realtime server logs monitoring (Data Engineering Weekly)](https://pathway.com/developers/tutorials/unlocking-data-stream-processing-2/)
+- [Data enrichment with fuzzy joins (Data Engineering Weekly)](https://pathway.com/developers/tutorials/unlocking-data-stream-processing-3/)
+- [▶️ How to do Realtime Twitter Sentiment Analysis in Python (video)](https://www.youtube.com/watch?v=V7T3xHfjE4o)
+
+If you would like to share with us some Pathway-related content, please give an admin a shout on [Discord](https://discord.gg/pathway).
+
+### Manul conventions
+
+Manuls (aka Pallas's Cats) [are creatures with fascinating habits](https://www.youtube.com/watch?v=rlSTBvViflc). As a tribute to them, we usually read `pw`, one of the most frequent tokens in Pathway code, as: `"paw"`. 
+
+<img src="https://d14l3brkh44201.cloudfront.net/PathwayManul.svg" alt="manul" width="50px"></img>
+
+## Performance
+
+Pathway is made to outperform state-of-the-art technologies designed for streaming and batch data processing tasks, including: Flink, Spark, and Kafka Streaming. It also makes it possible to implement a lot of algorithms/UDF's in streaming mode which are not readily supported by other streaming frameworks (especially: temporal joins, iterative graph algorithms, machine learning routines).
+
+If you are curious, here are [some benchmarks to play with](https://github.com/pathwaycom/pathway-benchmarks). 
+
+<img src="https://github.com/pathwaycom/pathway-benchmarks/raw/main/images/bm-wordcount-lineplot.png" width="1326" alt="WordCount Graph"/>
+
+If you try your own benchmarks, please don't hesitate to let us know. We investigate situations in which Pathway is underperforming on par with bugs (i.e., to our knowledge, they shouldn't happen...).
+
+## Coming soon
+
+Pathway continues to evolve and gain new capabilities. Here are some exciting new features that we plan to incorporate in the near future:
+
+- Enhanced monitoring, observability, and data drift detection (integrates with Grafana visualization and other dashboarding tools).
+- New connectors: interoperability with Delta Lake and Snowflake data sources.
+- Easier connection setup for MongoDB.
+- More performant garbage collection.
+
+Stay up to date with the latest developments and news surrounding Pathway on [our blog](https://pathway.com/blog/), or [subscribe to our newsletter].  
+
+
+## Dependencies
+
+Pathway is made to run in a "clean" Linux/MacOS + Python environment. When installing the pathway package with `pip` (from a wheel), you are likely to encounter a small number of Python package dependencies, such as sqlglot (used in the SQL API) and python-sat (useful for resolving dependencies during compilation). All necessary Rust crates are pre-built; the Rust compiler is not required to install Pathway, unless building from sources. A modified version of Timely/Differential Dataflow (which provides a dataflow assembly layer) is part of this repo. 
+
+## License
+
+Pathway is distributed on a [BSL 1.1 License](LICENSE.txt) which allows for unlimited non-commercial use, as well as use of the Pathway package [for most commercial purposes](https://pathway.com/license/), free of charge. Code in this repository automatically converts to Open Source (Apache 2.0 License) after 4 years. Some [public repos](https://github.com/pathwaycom) which are complementary to this one (examples, libraries, connectors, etc.) are licensed as Open Source, under the MIT license.
+
+
+## Contribution guidelines
+
+If you develop a library or connector which you would like to integrate with this repo, we suggest releasing it first as a separate repo on a MIT/Apache 2.0 license. 
+
+For all concerns regarding core Pathway functionalities, Issues are encouraged. For further information, don't hesitate to engage with Pathway's [Discord community](https://discord.gg/pathway).
+
